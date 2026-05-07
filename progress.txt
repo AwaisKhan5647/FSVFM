@@ -1,0 +1,319 @@
+================================================================================
+FSVFM — Setup & Training Progress
+Date: 2026-05-07
+Repo: https://github.com/AwaisKhan5647/FSVFM  (branch: FSVFM-extension)
+Local: /data/awais/projects/FSVFM
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+ENVIRONMENT
+────────────────────────────────────────────────────────────────────────────────
+Python env  : /data/awais/anaconda/envs/d3/bin/python
+PyTorch     : 2.8.0+cu128
+timm        : 1.0.20
+torchvision : 0.23.0+cu128
+tensorboard : 2.20.0
+scikit-learn: 1.7.2
+
+GPUs (CUDA_VISIBLE_DEVICES=4,5)
+  cuda:0  NVIDIA RTX 6000 Ada Generation  ~51 GB
+  cuda:1  NVIDIA RTX 6000 Ada Generation  ~51 GB
+
+
+────────────────────────────────────────────────────────────────────────────────
+STEP 1 — COMPATIBILITY CHECK (GenD_NeSy vs upstream FSVFM-extension)
+────────────────────────────────────────────────────────────────────────────────
+Existing repo   : /data/awais/projects/GenD_NeSy
+                  (NOT the upstream FSVFM training repo — inference wrapper only)
+
+MATCHING (reusable from GenD_NeSy):
+  weights/FS-VFM/FS-VFM-ViT-L.pth          3640 MB  ← pre-trained ViT-L/16
+  weights/FS-VFM/FS-VFM-ViT-L-Adapter.pth  1220 MB  ← FS-Adapter variant
+  src/model/fsfm/models_vit.py              timm-adapted ViT arch
+  src/model/fsfm/models_vit_fs_adapter.py   Adapter arch
+
+MISSING (not present in GenD_NeSy, needed for training):
+  engine_finetune.py        training loop (train_one_epoch, evaluate)
+  util/misc.py              DDP init, AMP scaler, checkpoint save/load
+  util/lr_decay.py          layer-wise LR decay
+  util/lr_sched.py          cosine LR schedule
+  util/metrics.py           AUC, EER, frame/video-level metrics
+  util/pos_embed.py         positional embedding interpolation
+  util/datasets.py          transform builder, ImageFolder loader
+  main_finetune_DfD.py      upstream training entry point
+  DDP / AMP training        GenD uses Lightning; FSFM uses native PyTorch DDP
+  Composite dataset loader  GenD only reads .txt file lists; no recursive scan
+
+VERDICT: NOT compatible for training. New repo required.
+
+
+────────────────────────────────────────────────────────────────────────────────
+STEP 2 — GITHUB REPO SETUP
+────────────────────────────────────────────────────────────────────────────────
+GitHub account : AwaisKhan5647
+Repo created   : https://github.com/AwaisKhan5647/FSVFM
+Branch         : FSVFM-extension
+
+Commands used:
+  gh repo create AwaisKhan5647/FSVFM --public \
+    --description "Scalable Face Security Vision Foundation Model — FSFM-CVPR25 FSVFM-extension"
+
+  git clone --branch FSVFM-extension --single-branch \
+    https://github.com/wolo-wolo/FSFM-CVPR25.git FSVFM
+
+  git remote set-url origin https://github.com/AwaisKhan5647/FSVFM.git
+  git push -u origin FSVFM-extension
+
+
+────────────────────────────────────────────────────────────────────────────────
+STEP 3 — FILES CREATED / MODIFIED
+────────────────────────────────────────────────────────────────────────────────
+MODIFIED:
+  fsvfm/models_vit.py
+    - Added **kwargs to forward_features() so timm 1.0.x can pass attn_mask
+    - Added conditional pos_drop guard (_HAS_POS_DROP) for timm >=1.0
+    - Added explicit forward(x) to bypass parent-class dispatch
+    - All three ViT variants (S/B/L/H) inherit the fix automatically
+
+CREATED:
+  fsvfm/util/composite_dataset.py
+    - SingleRootDataset: recursive image scan, folder-name → label inference,
+      label-file support, corrupted-file skip, per-dataset stats
+    - CompositeDeepfakeDataset: merges multiple datasets, class balancing,
+      WeightedRandomSampler, summary table printed at init
+    - build_composite_dataset(): convenience builder using args transforms
+
+  fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py
+    - Full DDP training via torchrun (not deprecated torch.distributed.launch)
+    - AMP via NativeScalerWithGradNormCount (same as upstream FSFM)
+    - Optimizer: AdamW + layer-wise LR decay (same as upstream)
+    - Schedule: cosine LR with warmup (same as upstream)
+    - Augmentation: mixup + cutmix + RandAugment (same as upstream defaults)
+    - Saves: checkpoint-latest.pth (every N epochs, crash recovery)
+             checkpoint-best_auc.pth (new best val AUC)
+             checkpoint-min_val_loss.pth (new min val loss)
+    - All optimizer + scaler + epoch state saved for exact resume
+    - Dry-run mode: --dry_run flag runs 1 batch then exits
+    - Config snapshot saved to output_dir/config.json on start
+    - JSON log written to output_dir/train_log.txt per epoch
+    - TensorBoard events written to log_dir/
+
+  scripts/train_fsvfm_composite.sh   full training launch
+  scripts/resume_fsvfm.sh            resume from checkpoint tag
+  scripts/dry_run.sh                 one-batch pre-flight test
+  scripts/verify_setup.py            15-check environment verifier
+
+OUTPUT DIRECTORIES:
+  /data/awais/projects/FSVFM/
+    experiments/   per-run checkpoints + logs + config.json
+    checkpoints/   (shared / manually placed checkpoints)
+    logs/          per-run TensorBoard events
+    configs/       (optional experiment config files)
+    outputs/       (prediction outputs for evaluation)
+
+
+────────────────────────────────────────────────────────────────────────────────
+STEP 4 — VERIFICATION (all checks pass)
+────────────────────────────────────────────────────────────────────────────────
+Command:
+  cd /data/awais/projects/FSVFM
+  CUDA_VISIBLE_DEVICES=4,5 /data/awais/anaconda/envs/d3/bin/python scripts/verify_setup.py
+
+Result (2026-05-07): 15/15 PASS
+  [1] PyTorch 2.8.0+cu128  |  CUDA: True  |  GPUs: 2
+  [2] GPUs: 2x RTX 6000 Ada (~51 GB each)
+  [3] timm 1.0.20 installed
+  [4] torch.distributed available
+  [5] torchvision 0.23.0
+  [6] scikit-learn 1.7.2
+  [7] tensorboard 2.20.0
+  [8] trunc_normal_ from timm.layers (1.0.x path)
+  [9] vit_large_patch16 forward pass: output shape (1, 2)  ← FIXED
+  [10] FS-VFM-ViT-L.pth: 3640 MB
+  [11] FS-VFM-ViT-L-Adapter.pth: 1220 MB
+  [12] FS-VFM-ViT-L.pth loads into model (missing keys: head + fc_norm only)
+  [13] torch.distributed importable
+  [14] composite_dataset imports ok
+  [15] all 5 output directories exist
+
+
+────────────────────────────────────────────────────────────────────────────────
+STEP 5 — TRAINING COMMANDS
+────────────────────────────────────────────────────────────────────────────────
+
+ALWAYS cd to repo root first:
+  cd /data/awais/projects/FSVFM
+
+── Verification (run before anything else) ──────────────────────────────────
+  CUDA_VISIBLE_DEVICES=4,5 /data/awais/anaconda/envs/d3/bin/python scripts/verify_setup.py
+
+── Dry-run (1-batch DDP test, no full training) ─────────────────────────────
+  bash scripts/dry_run.sh /path/to/your/dataset_root
+
+  # Internally runs:
+  CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=4 \
+  /data/awais/anaconda/envs/d3/bin/python -m torch.distributed.run \
+      --nproc_per_node=2 \
+      --master_port=29512 \
+      fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py \
+      --train_root  /path/to/dataset_root \
+      --val_root    /path/to/dataset_root \
+      --finetune    /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth \
+      --model       vit_large_patch16 \
+      --batch_size  4 \
+      --num_workers 2 \
+      --apply_simple_augment \
+      --normalize_from_IMN \
+      --output_dir  experiments/dry_run_TIMESTAMP \
+      --dry_run
+
+── Full training (provide dataset path) ─────────────────────────────────────
+  bash scripts/train_fsvfm_composite.sh /path/to/dataset1 /path/to/dataset2 ...
+
+  # Internally runs:
+  CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=4 \
+  /data/awais/anaconda/envs/d3/bin/python -m torch.distributed.run \
+      --nproc_per_node=2 \
+      --master_port=29510 \
+      fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py \
+      --train_root  /path/to/dataset1 \
+      --train_root  /path/to/dataset2 \
+      --val_root    /path/to/dataset1 \
+      --val_root    /path/to/dataset2 \
+      --finetune    /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth \
+      --model       vit_large_patch16 \
+      --nb_classes  2 \
+      --input_size  224 \
+      --batch_size  32 \
+      --accum_iter  1 \
+      --epochs      50 \
+      --warmup_epochs 5 \
+      --blr         5e-5 \
+      --layer_decay 0.90 \
+      --weight_decay 0.01 \
+      --drop_path   0.1 \
+      --mixup       0.8 \
+      --cutmix      1.0 \
+      --reprob      0.25 \
+      --apply_simple_augment \
+      --normalize_from_IMN \
+      --balance \
+      --dist_eval \
+      --num_workers 10 \
+      --save_every  1 \
+      --output_dir  experiments/fsvfm_vitl_composite_TIMESTAMP \
+      --log_dir     logs/fsvfm_vitl_composite_TIMESTAMP
+
+── Resume from crash or latest checkpoint ───────────────────────────────────
+  bash scripts/resume_fsvfm.sh experiments/<run_name>
+  bash scripts/resume_fsvfm.sh experiments/<run_name> best_auc
+  bash scripts/resume_fsvfm.sh experiments/<run_name> min_val_loss
+
+  # Internally runs (with --resume flag added):
+  CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=4 \
+  /data/awais/anaconda/envs/d3/bin/python -m torch.distributed.run \
+      --nproc_per_node=2 \
+      --master_port=29511 \
+      fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py \
+      ... (all args from config.json) ...
+      --resume experiments/<run_name>/checkpoint-latest.pth
+
+── Monitor training with TensorBoard ────────────────────────────────────────
+  /data/awais/anaconda/envs/d3/bin/python -m tensorboard.main \
+      --logdir logs/<run_name> --port 6006
+
+── Testing after training ───────────────────────────────────────────────────
+  CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=4 \
+  /data/awais/anaconda/envs/d3/bin/python -m torch.distributed.run \
+      --nproc_per_node=2 \
+      --master_port=29513 \
+      fsvfm/finetune/cross_dataset_DFD_and_DiFF/main_test_DfD.py \
+      --eval \
+      --model vit_large_patch16 \
+      --nb_classes 2 \
+      --batch_size 320 \
+      --resume experiments/<run_name>/checkpoint-best_auc.pth \
+      --output_dir outputs/<run_name>
+
+
+────────────────────────────────────────────────────────────────────────────────
+CHECKPOINT PATHS (after training completes)
+────────────────────────────────────────────────────────────────────────────────
+Best AUC      : experiments/<run_name>/checkpoint-best_auc.pth
+Min val loss  : experiments/<run_name>/checkpoint-min_val_loss.pth
+Latest (crash): experiments/<run_name>/checkpoint-latest.pth
+Config        : experiments/<run_name>/config.json
+JSON log      : experiments/<run_name>/train_log.txt
+Stdout log    : logs/<run_name>/train_stdout.log
+TensorBoard   : logs/<run_name>/
+
+
+────────────────────────────────────────────────────────────────────────────────
+DATASET FORMAT (accepted by composite_dataset.py)
+────────────────────────────────────────────────────────────────────────────────
+Option A — Folder-structure (auto-labelled):
+  dataset_root/
+    real/           ← any folder with "real" in name → label 0
+      video1/
+        frame_001.jpg
+    FaceSwap/       ← any other name → label 1 (fake)
+      video2/
+        frame_001.jpg
+
+Option B — Label file (.txt, space-delimited):
+  --train_root /dataset_root --train_label_file /path/train.txt
+  train.txt format:  /abs/path/to/frame.jpg 0
+                     relative/path/frame.jpg 1
+
+Option C — Multiple datasets (all repeated):
+  --train_root /dataset1 --train_root /dataset2 --train_root /dataset3
+  --val_root   /dataset1 --val_root   /dataset2
+
+Flags:
+  --balance           oversample minority class to 1:1 real:fake ratio
+  --max_per_dataset N cap each sub-dataset at N samples
+
+
+────────────────────────────────────────────────────────────────────────────────
+TRAINING HYPERPARAMETERS (upstream FSFM defaults, ViT-L)
+────────────────────────────────────────────────────────────────────────────────
+Model         : vit_large_patch16  (ViT-L/16, 307M params)
+Input size    : 224x224
+Batch/GPU     : 32  (effective = 32 * 2 GPUs = 64)
+Epochs        : 50
+Warmup        : 5 epochs
+Base LR       : 5e-5  (actual LR = blr * eff_batch / 256 = 5e-5 * 64 / 256 = 1.25e-5)
+Layer decay   : 0.90
+Weight decay  : 0.01
+LR schedule   : cosine (per-iteration)
+Drop path     : 0.1
+Mixup alpha   : 0.8
+CutMix alpha  : 1.0
+RandErase     : 0.25
+Augmentation  : RandAugment (rand-m9-mstd0.5-inc1) + center crop for val
+Normalization : ImageNet mean/std (--normalize_from_IMN)
+               or VGGFace2 mean=[0.5482, 0.4234, 0.3655] std=[0.2789, 0.2439, 0.2349]
+Optimizer     : AdamW with layer-wise LR decay
+Loss          : SoftTargetCrossEntropy (when mixup active)
+AMP           : torch.cuda.amp.autocast + NativeScalerWithGradNormCount
+
+
+────────────────────────────────────────────────────────────────────────────────
+PENDING (waiting for user input)
+────────────────────────────────────────────────────────────────────────────────
+[ ] Dataset path — user will provide; then run dry_run.sh first
+[ ] Validation dataset — can be separate from train or same root
+[ ] Optional: --max_per_dataset to cap very large datasets
+[ ] Optional: change --epochs / --blr if fine-tuning on small dataset
+
+
+────────────────────────────────────────────────────────────────────────────────
+GITHUB COMMIT HISTORY
+────────────────────────────────────────────────────────────────────────────────
+e48bd06  upstream: Update README.md                  (wolo-wolo original)
+...      upstream: FSVFM-extension base code         (wolo-wolo original)
+a3e1879  Add robust composite-dataset fine-tuning pipeline for FSVFM
+         (timm fix, composite loader, DDP+AMP training, scripts, dirs)
+
+================================================================================
