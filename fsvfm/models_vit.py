@@ -16,9 +16,13 @@ import torch.nn as nn
 
 import timm.models.vision_transformer
 
+# timm ≥0.9 dropped pos_drop as a named attribute; fall back gracefully.
+_HAS_POS_DROP = hasattr(timm.models.vision_transformer.VisionTransformer, 'pos_drop')
+
 
 class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
-    """ Vision Transformer with support for global average pooling
+    """ Vision Transformer with support for global average pooling.
+    Compatible with timm 0.4.x through 1.0.x.
     """
     def __init__(self, global_pool=False, **kwargs):
         super(VisionTransformer, self).__init__(**kwargs)
@@ -28,17 +32,22 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
             norm_layer = kwargs['norm_layer']
             embed_dim = kwargs['embed_dim']
             self.fc_norm = norm_layer(embed_dim)
+            # timm 1.0 may not have self.norm when global_pool=True
+            if hasattr(self, 'norm'):
+                del self.norm
 
-            del self.norm  # remove the original norm
-
-    def forward_features(self, x):
+    # Accept **kwargs so timm 1.0.x can pass attn_mask without breaking.
+    def forward_features(self, x, **kwargs):
         B = x.shape[0]
         x = self.patch_embed(x)
 
-        cls_tokens = self.cls_token.expand(B, -1, -1)  # stole cls_tokens impl from Phil Wang, thanks
+        cls_tokens = self.cls_token.expand(B, -1, -1)
         x = torch.cat((cls_tokens, x), dim=1)
         x = x + self.pos_embed
-        x = self.pos_drop(x)
+
+        # pos_drop removed in timm ≥1.0
+        if _HAS_POS_DROP:
+            x = self.pos_drop(x)
 
         for blk in self.blocks:
             x = blk(x)
@@ -51,6 +60,11 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
             outcome = x[:, 0]
 
         return outcome
+
+    def forward(self, x):
+        x = self.forward_features(x)
+        x = self.head(x)
+        return x
 
 
 def vit_small_patch16(**kwargs):
