@@ -315,5 +315,52 @@ e48bd06  upstream: Update README.md                  (wolo-wolo original)
 ...      upstream: FSVFM-extension base code         (wolo-wolo original)
 a3e1879  Add robust composite-dataset fine-tuning pipeline for FSVFM
          (timm fix, composite loader, DDP+AMP training, scripts, dirs)
+080caa3  Add progress.txt: full setup log, all commands, hyperparameters
+
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+RESUME CONTEXT FOR NEXT CLAUDE CHAT SESSION
+────────────────────────────────────────────────────────────────────────────────
+Status on 2026-05-07: FULLY SETUP — waiting only for dataset path(s).
+Everything verified 15/15. Training starts the moment you provide datasets.
+
+Paste this into the next Claude Code chat to resume:
+
+---
+I have a fully set up FSVFM deepfake detection training pipeline at
+/data/awais/projects/FSVFM (GitHub: https://github.com/AwaisKhan5647/FSVFM,
+branch FSVFM-extension). Setup is complete and verified (15/15 checks pass).
+See /data/awais/projects/FSVFM/progress.txt for full details.
+
+Context:
+- Model: FSVFM ViT-L/16 (upstream FSFM-CVPR25 FSVFM-extension branch)
+- Pretrained checkpoint: /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth
+- Python env: /data/awais/anaconda/envs/d3/bin/python (PyTorch 2.8+cu128, timm 1.0.20)
+- GPUs: CUDA_VISIBLE_DEVICES=4,5 (2x RTX 6000 Ada, 51 GB each)
+- Training script: fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py
+- Launch script: scripts/train_fsvfm_composite.sh
+- Dry-run script: scripts/dry_run.sh
+
+My datasets are now ready at: [FILL IN DATASET PATH(S) HERE]
+
+Please:
+1. Run the dry-run first to verify dataloaders and GPU allocation
+2. Then launch full training
+3. Monitor and report any issues
+---
+
+FIRST COMMANDS TO RUN in new session:
+  cd /data/awais/projects/FSVFM
+
+  # Step 1: re-verify environment (should still be 15/15)
+  CUDA_VISIBLE_DEVICES=4,5 /data/awais/anaconda/envs/d3/bin/python scripts/verify_setup.py
+
+  # Step 2: dry-run with your dataset path
+  bash scripts/dry_run.sh /YOUR/DATASET/PATH
+
+  # Step 3: full training (once dry-run passes)
+  bash scripts/train_fsvfm_composite.sh /YOUR/DATASET/PATH
 
 ================================================================================
