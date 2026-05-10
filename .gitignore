@@ -8,4 +8,26 @@ dist/
 build/
 .env
 *.log
+
+# Model checkpoints — large binary files
+*.pth
+*.pt
+*.ckpt
+
+# Experiment runtime outputs
 experiments/dry_run_*/
+experiments/*/log_detail.txt
+experiments/*/progress_watcher.log
+logs/
+
+# Large inference CSVs (derived, reproducible)
+experiments/*/inference_*/inference_results.csv
+experiments/*/inference_*/video_results.csv
+
+# Keep human-readable results and configs
+!experiments/*/result.txt
+!experiments/*/progress.txt
+!experiments/*/config.json
+!experiments/*/train_log.txt
+!experiments/*/watchdog.log
+!experiments/*/inference_*/inference_summary.txt
