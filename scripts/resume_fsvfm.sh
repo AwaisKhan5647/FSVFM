@@ -56,7 +56,7 @@ while IFS= read -r root; do
     [[ -n "$root" ]] && VAL_ROOT_ARGS+=(--val_root "$root")
 done <<< "$VAL_ROOTS"
 
-CUDA_VISIBLE_DEVICES=4,5 \
+CUDA_VISIBLE_DEVICES=5,6 \
 OMP_NUM_THREADS=4 \
 "$PYTHON" -m torch.distributed.run \
     --nproc_per_node=2 \
