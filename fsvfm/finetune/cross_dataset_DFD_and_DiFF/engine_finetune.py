@@ -12,12 +12,15 @@
 
 import math
 import sys
-from typing import Iterable, Optional
+import time
+import datetime
+from typing import Iterable, List, Optional
 import numpy as np
 import torch
 import torch.nn.functional as F
 from timm.data import Mixup
 from timm.utils import accuracy
+from tqdm import tqdm
 
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
@@ -34,19 +37,26 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
     model.train(True)
     metric_logger = misc.MetricLogger(delimiter="  ")
     metric_logger.add_meter('lr', misc.SmoothedValue(window_size=1, fmt='{value:.6f}'))
-    header = 'Epoch: [{}]'.format(epoch)
-    print_freq = 100
-
     accum_iter = args.accum_iter
-
     optimizer.zero_grad()
 
-    if log_writer is not None:
-        print('log_dir: {}'.format(log_writer.log_dir))
+    total_epochs = getattr(args, 'epochs', '?')
+    is_main = misc.is_main_process()
 
-    for data_iter_step, (samples, targets) in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
+    # tqdm bar on rank 0 only — one line per batch, updates in-place
+    pbar = tqdm(
+        total=len(data_loader),
+        desc=f"Epoch {epoch+1}/{total_epochs} [train]",
+        unit="batch",
+        dynamic_ncols=True,
+        disable=not is_main,
+        leave=True,
+        bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] {postfix}",
+    )
 
-        # we use a per iteration (instead of per epoch) lr scheduler
+    epoch_start = time.time()
+
+    for data_iter_step, (samples, targets) in enumerate(data_loader):
         if data_iter_step % accum_iter == 0:
             lr_sched.adjust_learning_rate(optimizer, data_iter_step / len(data_loader) + epoch, args)
 
@@ -57,14 +67,13 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
             samples, targets = mixup_fn(samples, targets)
 
         with torch.cuda.amp.autocast():
-            # outputs = model(samples)
-            outputs = model(samples).to(device, non_blocking=True)  # modified
+            outputs = model(samples).to(device, non_blocking=True)
             loss = criterion(outputs, targets)
 
         loss_value = loss.item()
 
         if not math.isfinite(loss_value):
-            print("Loss is {}, stopping training".format(loss_value))
+            print(f"Loss is {loss_value}, stopping training")
             sys.exit(1)
 
         loss /= accum_iter
@@ -77,74 +86,127 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         torch.cuda.synchronize()
 
         metric_logger.update(loss=loss_value)
-        min_lr = 10.
-        max_lr = 0.
-        for group in optimizer.param_groups:
-            min_lr = min(min_lr, group["lr"])
-            max_lr = max(max_lr, group["lr"])
-
+        max_lr = max(g["lr"] for g in optimizer.param_groups)
         metric_logger.update(lr=max_lr)
 
         loss_value_reduce = misc.all_reduce_mean(loss_value)
+
         if log_writer is not None and (data_iter_step + 1) % accum_iter == 0:
-            """ We use epoch_1000x as the x-axis in tensorboard.
-            This calibrates different curves when batch size changes.
-            """
             epoch_1000x = int((data_iter_step / len(data_loader) + epoch) * 1000)
             log_writer.add_scalar('loss', loss_value_reduce, epoch_1000x)
             log_writer.add_scalar('lr', max_lr, epoch_1000x)
 
-    # gather the stats from all processes
+        # Update tqdm every batch with current loss and lr
+        if is_main:
+            pbar.set_postfix(loss=f"{loss_value:.4f}", lr=f"{max_lr:.2e}", refresh=False)
+            pbar.update(1)
+
+    pbar.close()
+
+    epoch_secs = time.time() - epoch_start
     metric_logger.synchronize_between_processes()
-    print("Averaged stats:", metric_logger)
+    if is_main:
+        print(f"  Epoch {epoch+1}/{total_epochs} train done — "
+              f"avg_loss={metric_logger.meters['loss'].global_avg:.4f}  "
+              f"time={str(datetime.timedelta(seconds=int(epoch_secs)))}")
     return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
 
 
 @torch.no_grad()
 def evaluate(data_loader, model, device):
+    """Alias kept for backward compatibility — delegates to evaluate_full."""
+    return evaluate_full(data_loader, model, device)
+
+
+@torch.no_grad()
+def evaluate_full(data_loader, model, device):
+    """
+    Collect ALL predictions across the full dataset (gathering across DDP ranks),
+    then compute global Accuracy, AUC, Real_Accuracy, Fake_Accuracy.
+    Returns a dict with keys: accuracy, auc, real_accuracy, fake_accuracy, loss.
+    """
+    import torch.distributed as dist_mod
+
+    model.eval()
     criterion = torch.nn.CrossEntropyLoss()
 
-    metric_logger = misc.MetricLogger(delimiter="  ")
-    header = 'Test:'
+    local_probs: List[np.ndarray] = []
+    local_labels: List[np.ndarray] = []
+    total_loss = 0.0
+    n_batches = 0
+    is_main = misc.is_main_process()
 
-    # switch to evaluation mode
-    model.eval()
+    pbar = tqdm(
+        total=len(data_loader),
+        desc="  [eval ]",
+        unit="batch",
+        dynamic_ncols=True,
+        disable=not is_main,
+        leave=False,
+        bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}] {postfix}",
+    )
 
-    for batch in metric_logger.log_every(data_loader, 10, header):
-        images = batch[0]
-        target = batch[-1]
-        images = images.to(device, non_blocking=True)
-        target = target.to(device, non_blocking=True)
-
-        # compute output
+    for batch in data_loader:
+        images = batch[0].to(device, non_blocking=True)
+        target = batch[-1].to(device, non_blocking=True)
         with torch.cuda.amp.autocast():
-            # output = model(images)
-            output = model(images).to(device, non_blocking=True)  # modified
+            output = model(images).to(device, non_blocking=True)
             loss = criterion(output, target)
+        total_loss += loss.item()
+        n_batches += 1
+        local_probs.append(F.softmax(output, dim=1)[:, 1].detach().cpu().numpy())
+        local_labels.append(target.detach().cpu().numpy())
+        if is_main:
+            pbar.set_postfix(loss=f"{loss.item():.4f}", refresh=False)
+            pbar.update(1)
 
-        # acc1, acc5 = accuracy(output, target, topk=(1, 5))
-        # acc = float(accuracy(output, target, topk=(1,))[0])
-        preds = (F.softmax(output, dim=1)[:, 1].detach().cpu().numpy())
-        trues = (target.detach().cpu().numpy())
-        auc_score = roc_auc_score(trues, preds) * 100.
+    pbar.close()
 
-        batch_size = images.shape[0]
-        metric_logger.update(loss=loss.item())
-        # metric_logger.meters['acc1'].update(acc1.item(), n=batch_size)
-        # metric_logger.meters['acc5'].update(acc5.item(), n=batch_size)
-        # metric_logger.meters['acc'].update(acc, n=batch_size)
-        metric_logger.meters['auc'].update(auc_score, n=batch_size)
+    local_probs_np = np.concatenate(local_probs) if local_probs else np.array([])
+    local_labels_np = np.concatenate(local_labels) if local_labels else np.array([])
+    avg_loss = total_loss / max(n_batches, 1)
 
-    # gather the stats from all processes
-    metric_logger.synchronize_between_processes()
-    # print('* Acc@1 {top1.global_avg:.3f} Acc@5 {top5.global_avg:.3f} loss {losses.global_avg:.3f}'
-    #       .format(top1=metric_logger.acc1, top5=metric_logger.acc5, losses=metric_logger.loss))
-    # print('* Acc {acc.global_avg:.3f} Auc {auc.global_avg:.3f}  loss {losses.global_avg:.3f}'
-    #       .format(acc=metric_logger.acc, auc=metric_logger.auc, losses=metric_logger.loss))
-    print('* Auc {auc.global_avg:.3f}  loss {losses.global_avg:.3f}'
-          .format(auc=metric_logger.auc, losses=metric_logger.loss))
+    # Gather predictions and labels from all DDP ranks
+    if dist_mod.is_available() and dist_mod.is_initialized():
+        world_size = dist_mod.get_world_size()
+        gathered = [None] * world_size
+        dist_mod.all_gather_object(gathered, {"probs": local_probs_np, "labels": local_labels_np})
+        all_probs = np.concatenate([g["probs"] for g in gathered])
+        all_labels = np.concatenate([g["labels"] for g in gathered])
+        loss_t = torch.tensor(avg_loss, device=device)
+        dist_mod.all_reduce(loss_t, op=dist_mod.ReduceOp.SUM)
+        avg_loss = (loss_t / world_size).item()
+    else:
+        all_probs = local_probs_np
+        all_labels = local_labels_np
 
-    return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
+    if len(all_probs) == 0:
+        return {"accuracy": 0.0, "auc": 0.0, "real_accuracy": 0.0, "fake_accuracy": 0.0, "loss": avg_loss}
+
+    hard_preds = (all_probs >= 0.5).astype(int)
+    accuracy = float((hard_preds == all_labels).mean() * 100)
+
+    try:
+        auc = float(roc_auc_score(all_labels, all_probs) * 100)
+    except Exception:
+        auc = 0.0
+
+    real_mask = all_labels == 0
+    fake_mask = all_labels == 1
+    real_acc = float((hard_preds[real_mask] == 0).mean() * 100) if real_mask.sum() > 0 else 0.0
+    fake_acc = float((hard_preds[fake_mask] == 1).mean() * 100) if fake_mask.sum() > 0 else 0.0
+
+    print(
+        f"* Accuracy={accuracy:.2f}%  AUC={auc:.2f}%  "
+        f"Real_Acc={real_acc:.2f}%  Fake_Acc={fake_acc:.2f}%  loss={avg_loss:.4f}"
+    )
+    return {
+        "accuracy": accuracy,
+        "auc": auc,
+        "real_accuracy": real_acc,
+        "fake_accuracy": fake_acc,
+        "loss": avg_loss,
+    }
 
 
 @torch.no_grad()
