@@ -290,7 +290,7 @@ def build_transform(is_train, args):
                 is_training=True,
                 color_jitter=args.color_jitter,
                 auto_augment=args.aa,
-                interpolation=transforms.InterpolationMode.BICUBIC,
+                interpolation='bicubic',
                 re_prob=args.reprob,
                 re_mode=args.remode,
                 re_count=args.recount,

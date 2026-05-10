@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Composite dataset loader for FSVFM robust training
 # Supports: multi-root datasets, mixed structures, corrupted-file skipping,
-#           class balancing, dataset statistics logging.
+#           class balancing, dataset statistics logging, balanced DDP sampling.
 
 import os
 import glob
@@ -14,7 +14,8 @@ from typing import Callable, List, Optional, Tuple, Union
 import numpy as np
 from PIL import Image, ImageFile, UnidentifiedImageError
 import torch
-from torch.utils.data import Dataset, ConcatDataset, WeightedRandomSampler
+import torch.distributed as dist
+from torch.utils.data import Dataset, ConcatDataset, WeightedRandomSampler, Sampler
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
@@ -279,3 +280,200 @@ def build_composite_dataset(
         skip_corrupted=True,
     )
     return dataset
+
+
+# ---------------------------------------------------------------------------
+# Build dataset from separate real / fake path-list txt files
+# (one absolute path per line, no label column needed — label comes from file)
+# ---------------------------------------------------------------------------
+
+def build_from_txt_pair(
+    real_txt: str,
+    fake_txt: str,
+    is_train: bool,
+    args,
+    balance: bool = False,
+    max_per_class: Optional[int] = None,
+    path_remap_from: str = "",
+    path_remap_to: str = "",
+) -> "CompositeDeepfakeDataset":
+    """Build a dataset from two separate path-list files: one for real, one for fake.
+
+    path_remap_from/to: replace a path prefix in every line of the txt files,
+    e.g. from='/data/saad/datasets/gend_unified' to='/mnt/h200_dataset/gend_unified'.
+    """
+    from util.datasets import build_transform
+    transform = build_transform(is_train, args)
+
+    try:
+        from tqdm import tqdm as _tqdm
+    except ImportError:
+        _tqdm = None
+
+    do_remap = bool(path_remap_from and path_remap_to)
+    samples: List[Tuple[str, int]] = []
+    skipped = 0
+
+    for txt_path, label in [(real_txt, 0), (fake_txt, 1)]:
+        tag = "real" if label == 0 else "fake"
+        with open(txt_path, "r") as fh:
+            raw_lines = [ln.strip() for ln in fh if ln.strip()]
+
+        if do_remap:
+            raw_lines = [p.replace(path_remap_from, path_remap_to, 1) for p in raw_lines]
+        if max_per_class is not None:
+            random.shuffle(raw_lines)
+            raw_lines = raw_lines[:max_per_class]
+
+        # Spot-check 5 paths to confirm the mount is accessible before bulk-loading
+        spot = [raw_lines[i] for i in range(0, min(len(raw_lines), 5000), 1000)]
+        bad_spot = sum(1 for p in spot if not os.path.isfile(p))
+        if bad_spot == len(spot) and len(spot) > 0:
+            raise RuntimeError(
+                f"[build_from_txt_pair] Spot-check FAILED for '{txt_path}': "
+                f"none of {len(spot)} sampled paths exist. "
+                f"Check mount and --txt_path_remap_to. Sample: {spot[0]}"
+            )
+        if bad_spot > 0:
+            logger.warning(f"[build_from_txt_pair] {tag}: {bad_spot}/{len(spot)} spot-checked paths missing.")
+
+        # Load all paths directly — no per-file stat (too slow over network mounts).
+        # Missing files are handled gracefully in __getitem__ via _safe_open.
+        it = (
+            _tqdm(raw_lines, desc=f"  Indexing {tag} ({len(raw_lines):,})", unit="path",
+                  dynamic_ncols=True, leave=True,
+                  bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}]")
+            if _tqdm is not None else raw_lines
+        )
+        for p in it:
+            samples.append((p, label))
+
+    logger.info(f"[build_from_txt_pair] Indexed {len(samples):,} paths total "
+                f"({sum(1 for _,l in samples if l==0):,} real  "
+                f"{sum(1 for _,l in samples if l==1):,} fake)")
+
+    # Re-use CompositeDeepfakeDataset but inject samples directly
+    ds = CompositeDeepfakeDataset.__new__(CompositeDeepfakeDataset)
+    ds.transform = transform
+    ds.all_samples = samples
+    ds.dataset_sizes = {
+        Path(real_txt).stem: {
+            "total": sum(1 for _, l in samples if l == 0),
+            "real": sum(1 for _, l in samples if l == 0),
+            "fake": 0,
+        },
+        Path(fake_txt).stem: {
+            "total": sum(1 for _, l in samples if l == 1),
+            "real": 0,
+            "fake": sum(1 for _, l in samples if l == 1),
+        },
+    }
+
+    if balance:
+        ds.all_samples = ds._balance(ds.all_samples)
+
+    ds._print_summary()
+    return ds
+
+
+# ---------------------------------------------------------------------------
+# DistributedBalancedSampler — strict 50/50 real/fake per batch, DDP-safe
+# ---------------------------------------------------------------------------
+
+class DistributedBalancedSampler(Sampler):
+    """
+    Emits indices in alternating [half_batch real, half_batch fake] blocks so
+    that every DataLoader batch (batch_size = 2 * half_batch) is exactly 50 %
+    real and 50 % fake.  DDP-safe: each rank receives a non-overlapping,
+    balanced slice of the dataset.
+
+    Usage:
+        sampler = DistributedBalancedSampler(
+            dataset,
+            batch_size_per_gpu=64,
+            num_replicas=world_size,
+            rank=global_rank,
+        )
+        loader = DataLoader(dataset, batch_size=64, sampler=sampler, ...)
+        # Each batch on every GPU: 32 real + 32 fake frames.
+    """
+
+    def __init__(
+        self,
+        dataset: "CompositeDeepfakeDataset",
+        batch_size_per_gpu: int,
+        num_replicas: Optional[int] = None,
+        rank: Optional[int] = None,
+        shuffle: bool = True,
+        seed: int = 0,
+    ):
+        if batch_size_per_gpu % 2 != 0:
+            raise ValueError("batch_size_per_gpu must be even for balanced batching.")
+
+        if num_replicas is None:
+            num_replicas = dist.get_world_size() if (dist.is_available() and dist.is_initialized()) else 1
+        if rank is None:
+            rank = dist.get_rank() if (dist.is_available() and dist.is_initialized()) else 0
+
+        self.real_indices = [i for i, (_, l) in enumerate(dataset.all_samples) if l == 0]
+        self.fake_indices = [i for i, (_, l) in enumerate(dataset.all_samples) if l == 1]
+
+        if not self.real_indices or not self.fake_indices:
+            raise ValueError("Dataset must contain both real and fake samples for balanced sampling.")
+
+        self.half = batch_size_per_gpu // 2   # half-batch per rank
+        self.num_replicas = num_replicas
+        self.rank = rank
+        self.shuffle = shuffle
+        self.seed = seed
+        self.epoch = 0
+
+        # Pad each class up to a multiple of (half * num_replicas)
+        step = self.half * num_replicas
+        n = max(len(self.real_indices), len(self.fake_indices))
+        self.n_per_class = ((n + step - 1) // step) * step
+        # Each rank yields (n_per_class // num_replicas) real + same fake indices
+        self.num_samples = (self.n_per_class // num_replicas) * 2
+
+        logger.info(
+            f"[DistributedBalancedSampler] rank={rank}/{num_replicas}  "
+            f"real={len(self.real_indices)}  fake={len(self.fake_indices)}  "
+            f"n_per_class={self.n_per_class}  num_samples/rank={self.num_samples}  "
+            f"half_batch={self.half}"
+        )
+
+    def __iter__(self):
+        g = torch.Generator()
+        g.manual_seed(self.seed + self.epoch)
+
+        real = list(self.real_indices)
+        fake = list(self.fake_indices)
+
+        if self.shuffle:
+            real = [real[i] for i in torch.randperm(len(real), generator=g).tolist()]
+            fake = [fake[i] for i in torch.randperm(len(fake), generator=g).tolist()]
+
+        n = self.n_per_class
+        # Tile to reach target size
+        real = (real * ((n // len(real)) + 1))[:n]
+        fake = (fake * ((n // len(fake)) + 1))[:n]
+
+        half = self.half
+        total_half_blocks = n // half  # total half-blocks per class across all ranks
+
+        # Round-robin half-blocks to ranks so indices never overlap between ranks.
+        # Rank r owns half-blocks: r, r+num_replicas, r+2*num_replicas, ...
+        # Each pair (real_block_b, fake_block_b) → one DataLoader batch on this rank.
+        result = []
+        for blk in range(self.rank, total_half_blocks, self.num_replicas):
+            s = blk * half
+            result.extend(real[s: s + half])
+            result.extend(fake[s: s + half])
+
+        return iter(result)
+
+    def __len__(self) -> int:
+        return self.num_samples
+
+    def set_epoch(self, epoch: int) -> None:
+        self.epoch = epoch
