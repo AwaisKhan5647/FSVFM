@@ -357,10 +357,339 @@ FIRST COMMANDS TO RUN in new session:
   # Step 1: re-verify environment (should still be 15/15)
   CUDA_VISIBLE_DEVICES=4,5 /data/awais/anaconda/envs/d3/bin/python scripts/verify_setup.py
 
-  # Step 2: dry-run with your dataset path
-  bash scripts/dry_run.sh /YOUR/DATASET/PATH
+  # Step 2: dry-run (txt-pair mode — use your 4 txt files)
+  bash scripts/dry_run.sh \
+      --real_train /data/saad/datasets/gend_unified/0_real_train.txt \
+      --fake_train /data/saad/datasets/gend_unified/1_fake_train.txt \
+      --real_test  /data/saad/datasets/gend_unified/0_real_test.txt \
+      --fake_test  /data/saad/datasets/gend_unified/1_fake_test.txt
 
   # Step 3: full training (once dry-run passes)
-  bash scripts/train_fsvfm_composite.sh /YOUR/DATASET/PATH
+  bash scripts/train_fsvfm_composite.sh \
+      --real_train /data/saad/datasets/gend_unified/0_real_train.txt \
+      --fake_train /data/saad/datasets/gend_unified/1_fake_train.txt \
+      --real_test  /data/saad/datasets/gend_unified/0_real_test.txt \
+      --fake_test  /data/saad/datasets/gend_unified/1_fake_test.txt
 
 ================================================================================
+
+
+================================================================================
+UPDATE — 2026-05-08  (training pipeline enhancements + full dataset details)
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+CHANGES MADE TO TRAINING PIPELINE
+────────────────────────────────────────────────────────────────────────────────
+
+1. BALANCED BATCH SAMPLING (fsvfm/util/composite_dataset.py)
+   ─────────────────────────────────────────────────────────
+   Added DistributedBalancedSampler — a custom DDP-aware sampler that guarantees
+   every single batch on every GPU contains exactly 50% real and 50% fake frames.
+   This is NOT the same as dataset-level balancing (which only balances overall);
+   this ensures the model never sees an imbalanced gradient signal within a batch.
+
+   Mechanism:
+     • Separates all indices into real_indices[] and fake_indices[]
+     • Each rank owns non-overlapping half-blocks of size (batch_size//2)
+     • Emits indices in pattern: [32 real, 32 fake, 32 real, 32 fake, ...]
+     • DataLoader picks up each consecutive 64 → always 32 real + 32 fake
+     • Minority class is oversampled (tiles) to match the majority class size
+     • set_epoch(epoch) re-shuffles each epoch while preserving balance
+
+   Also added build_from_txt_pair() — builds dataset directly from two separate
+   path-list txt files (one path per line, no label column needed).
+
+2. BATCH SIZE INCREASED: 32 → 64 per GPU
+   ─────────────────────────────────────
+   2× RTX 6000 Ada (51 GB each) can comfortably run ViT-L/16 at 224×224 with
+   batch_size=64 per GPU.
+   Effective batch = 64 GPU-0 + 64 GPU-1 = 128 total.
+   Per batch: 32 real + 32 fake on each GPU = 64 real + 64 fake globally.
+
+3. PER-EPOCH TEST EVALUATION (engine_finetune.py + train_composite.py)
+   ──────────────────────────────────────────────────────────────────────
+   Old evaluate() was BROKEN: it computed AUC per-batch and then averaged the
+   per-batch AUCs — mathematically wrong because AUC is a global rank metric.
+
+   New evaluate_full():
+     • Collects ALL predictions and labels across the full test set
+     • Gathers across all DDP ranks via dist.all_gather_object
+     • Computes metrics on the complete, globally-aggregated prediction array
+     • Returns: Accuracy, AUC, Real_Accuracy, Fake_Accuracy, Loss
+
+   Called after every epoch. Best checkpoints tracked on three criteria:
+     checkpoint-best_auc.pth   — highest AUC on test set
+     checkpoint-best_acc.pth   — highest Accuracy on test set
+     checkpoint-min_loss.pth   — lowest test loss
+
+4. METRICS: result.txt written after every epoch
+   ───────────────────────────────────────────────
+   File: experiments/<run_name>/result.txt
+   Format per epoch:
+     Epoch  0 | Accuracy=XX.XX% | AUC=XX.XX% | Real_Accuracy=XX.XX% | Fake_Accuracy=XX.XX% | Loss=X.XXXX
+     Epoch  1 | ...
+     ...
+     Epoch -1 [FINAL_BEST] | ...   ← written at end of training
+
+   Definitions:
+     Accuracy      = (TP + TN) / (TP + TN + FP + FN)  overall correct predictions
+     AUC           = Area Under ROC Curve (0–100%)
+     Real_Accuracy = TN / (TN + FP)  — how well the model identifies real frames
+     Fake_Accuracy = TP / (TP + FN)  — how well the model identifies fake frames
+
+5. NEW TXT-FILE DATASET INTERFACE
+   ────────────────────────────────
+   Training now accepts separate real/fake path-list txt files directly.
+   New args:
+     --real_train_txt  /path/to/0_real_train.txt   (one abs path per line)
+     --fake_train_txt  /path/to/1_fake_train.txt
+     --real_test_txt   /path/to/0_real_test.txt
+     --fake_test_txt   /path/to/1_fake_test.txt
+
+   If txt files are not provided, falls back to directory-based --train_root mode.
+
+6. PROGRESS.TXT + TENSORBOARD logging
+   ─────────────────────────────────────
+   At training start: dataset statistics (total/real/fake counts, roots, GPU info,
+   batch config) written here.
+   Each epoch: one-line summary appended here.
+   TensorBoard: test/auc, test/accuracy, test/real_accuracy, test/fake_accuracy,
+                test/loss, train/loss all logged per epoch.
+
+────────────────────────────────────────────────────────────────────────────────
+FILES CHANGED
+────────────────────────────────────────────────────────────────────────────────
+  fsvfm/util/composite_dataset.py
+    + DistributedBalancedSampler class (DDP balanced batch sampling)
+    + build_from_txt_pair() (load dataset from separate real/fake txt files)
+
+  fsvfm/finetune/cross_dataset_DFD_and_DiFF/engine_finetune.py
+    ~ evaluate() → now an alias for evaluate_full()
+    + evaluate_full() — correct global metrics: Accuracy, AUC, Real_Acc, Fake_Acc
+
+  fsvfm/finetune/cross_dataset_DFD_and_DiFF/train_composite.py
+    + --real_train_txt / --fake_train_txt / --real_test_txt / --fake_test_txt args
+    + --balanced_batch flag (default: True)
+    ~ --batch_size default: 32 → 64
+    + Dataset info logged to progress.txt at training start
+    + result.txt written after every epoch
+    + Three best checkpoints: best_auc, best_acc, min_loss
+    + Progress line appended per epoch
+
+  scripts/train_fsvfm_composite.sh — updated for txt-pair args, batch=64
+  scripts/dry_run.sh               — updated for txt-pair args, batch=64
+
+────────────────────────────────────────────────────────────────────────────────
+DATASET CONFIRMED ✓  (updated 2026-05-08 — mount path corrected)
+────────────────────────────────────────────────────────────────────────────────
+[x] Dataset location : /mnt/h200_dataset/saad/datasets/gend_unified/
+                       (CIFS share: //141.216.7.188/datasets, mounted at /mnt/h200_dataset)
+                       Previous stale path /mnt/h200_dataset/gend_unified/ was wrong.
+[x] 4 txt files confirmed:
+      0_real_train.txt  2,457,215 lines
+      1_fake_train.txt  2,724,677 lines
+      0_real_test.txt      72,467 lines
+      1_fake_test.txt      69,571 lines
+[x] Path remap: /data/saad/datasets/gend_unified → /mnt/h200_dataset/saad/datasets/gend_unified
+    (handled automatically in scripts — no symlink required)
+[x] CDFv2 status: PRESENT — all frames verified accessible at corrected mount path.
+    Previously reported as missing (~20K frames) due to wrong mount point. Now resolved.
+    Full 2,457,215 real training frames are accessible.
+
+────────────────────────────────────────────────────────────────────────────────
+DATASET — gend_unified (complete breakdown)
+────────────────────────────────────────────────────────────────────────────────
+Mount point : /mnt/h200_dataset/saad/datasets/gend_unified/
+CIFS share  : //141.216.7.188/datasets  →  /mnt/h200_dataset  (user: msaads)
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ TRAINING SET                          5,181,892 total frames            │
+  │   Real  : 2,457,215  (CDFv2, voxceleb2, CF/aigvbench — all present)    │
+  │   Fake  : 2,724,677  (DF-40 methods + CF custom generators)            │
+  │   CDFv2 : ✓ CONFIRMED present at corrected mount path                  │
+  ├─────────────────────────────────────────────────────────────────────────┤
+  │ Fake generators in TRAINING (42 total)                                  │
+  │                                                                         │
+  │  DF-40 face-swap (9):                                                   │
+  │    faceswap, inswap, simswap, mobileswap, facedancer,                  │
+  │    blendface, e4s, uniface, fsgan                                       │
+  │                                                                         │
+  │  DF-40 talking-head / reenactment (12):                                 │
+  │    wav2lip, sadtalker, fomm, lia, pirender, mcnet,                     │
+  │    facevid2vid, MRAA, one, tpsm, hyperreenact, danet                   │
+  │                                                                         │
+  │  DF-40 AI-generated (10):                                               │
+  │    StyleGAN2, StyleGAN3, StyleGANXL, ddim, DiT, SiT,                  │
+  │    VQGAN, pixart, RDDM, sd2.1                                          │
+  │                                                                         │
+  │  CF custom videos (11):                                                 │
+  │    aigvbench, awais, custom, defactify, dfbench, gpt4o,               │
+  │    image, nanobanana, nanopro, ReWIND, Veo3                            │
+  │                                                                         │
+  │  Real sources:                                                           │
+  │    voxceleb2, CF/aigvbench real                                         │
+  ├─────────────────────────────────────────────────────────────────────────┤
+  │ TEST SET (FULLY UNSEEN generators)     142,038 total frames             │
+  │   Real  :  72,467  (DF40test real split)                                │
+  │   Fake  :  69,571  (8 DF-40 unseen sub-datasets)                       │
+  │                                                                         │
+  │  UNSEEN fake methods (8):                                               │
+  │    CollabDiff, deepfacelab, heygen, MidJourney,                        │
+  │    stargan, starganv2, styleclip, whichfaceisreal                      │
+  │                                                                         │
+  │  Purpose: generalisation to methods never seen during training          │
+  │  + FFIW evaluated separately post-training on best checkpoint           │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+────────────────────────────────────────────────────────────────────────────────
+TRAINING CONFIGURATION (complete)
+────────────────────────────────────────────────────────────────────────────────
+
+  Model               : ViT-L/16  (vit_large_patch16, 307M trainable params)
+  Pretrained ckpt     : /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth
+  Input resolution    : 224 × 224  (ImageNet normalisation)
+  GPUs                : CUDA_VISIBLE_DEVICES=4,5
+                        2× NVIDIA RTX 6000 Ada Generation (51 GB VRAM each)
+  DDP                 : torchrun --nproc_per_node=2  (one rank per GPU)
+  AMP                 : torch.cuda.amp.autocast (fp16 forward / fp32 master weights)
+
+  ── Batch & sampling ──────────────────────────────────────────────────────
+  Batch / GPU         : 64  →  32 real + 32 fake  (strict 50 / 50 per batch)
+  Effective batch     : 128 total  (64 × 2 GPUs)
+  Gradient accum      : 1  (no accumulation, full batch per step)
+  Sampler             : DistributedBalancedSampler
+    • Separates all samples into real_indices[] and fake_indices[]
+    • Each rank assigned non-overlapping half-blocks of size 32
+    • Every DataLoader batch guaranteed: 32 real + 32 fake
+    • Minority class oversampled by tiling within each epoch
+    • Reshuffled each epoch via set_epoch()
+    • NOT the same as dataset-level balance — enforced per-batch
+
+  ── Optimiser & LR ────────────────────────────────────────────────────────
+  Optimiser           : AdamW
+  Base LR             : 5e-5
+  Actual LR           : 5e-5 × (128 / 256) = 2.5e-5
+  Layer LR decay      : 0.90  (outer blocks trained faster than inner)
+  Weight decay        : 0.01
+  Gradient clip       : None
+  Warmup              : 5 epochs  (linear LR ramp from 0)
+  Schedule            : cosine annealing after warmup  (min LR = 1e-6)
+
+  ── Epochs & checkpointing ────────────────────────────────────────────────
+  Total epochs        : 50
+  Checkpoint strategy : 3 independent best checkpoints tracked:
+                          checkpoint-best_auc.pth   (highest test AUC)
+                          checkpoint-best_acc.pth   (highest test Accuracy)
+                          checkpoint-min_loss.pth   (lowest test loss)
+                        + checkpoint-latest.pth     (crash recovery / resume)
+  Save frequency      : every epoch  (save_every=1)
+
+  ── Regularisation ────────────────────────────────────────────────────────
+  Drop path           : 0.10
+  Mixup alpha         : 0.8
+  CutMix alpha        : 1.0
+  Random erasing prob : 0.25
+  Label smoothing     : 0.10
+
+  ── Per-epoch evaluation ──────────────────────────────────────────────────
+  After every epoch:  full test-set evaluation (all DDP ranks gathered)
+  Metrics computed on complete prediction array (not per-batch average):
+    Accuracy      = (TP+TN) / Total        — overall correctness
+    AUC           = Area Under ROC Curve   — threshold-independent
+    Real_Accuracy = TN / (TN+FP)           — specificity / real recall
+    Fake_Accuracy = TP / (TP+FN)           — sensitivity / fake recall
+    Loss          = CrossEntropy on test set
+
+  Written to experiments/<run>/result.txt  (one row per epoch)
+  Written to experiments/<run>/progress.txt (one line per epoch)
+  TensorBoard: test/auc, test/accuracy, test/real_accuracy,
+               test/fake_accuracy, test/loss, train/loss
+
+────────────────────────────────────────────────────────────────────────────────
+UPDATE — 2026-05-08  (GPU change, batch maximisation, watchdog, best-model fix)
+────────────────────────────────────────────────────────────────────────────────
+
+  GPU IDs                : 4,5  →  5,6   (both ~50.4 GB free)
+  Batch / GPU            : 64   →  128   (64 real + 64 fake per GPU)
+  Effective batch        : 128  →  256
+  Actual LR              : blr × 256/256 = 5e-5  (perfectly calibrated)
+  Epochs                 : 50   →  20
+  Warmup epochs          : 5    →  2
+  Workers / GPU          : 10   →  12 (+OMP_NUM_THREADS=8)
+
+  Checkpoint best-stats persistence fix:
+    Previously best_auc/best_acc/min_test_loss were NOT saved in checkpoints,
+    so every resume would restart comparisons from 0 and overwrite good models.
+    Fixed: checkpoint payload now includes best_auc, best_acc, min_test_loss.
+    On resume, load_best_stats() restores them so best-model tracking continues
+    correctly across all restarts.
+
+  scripts/watchdog.sh  (NEW):
+    • Creates a single fixed OUTPUT_DIR at startup
+    • Launches training via train_fsvfm_composite.sh
+    • On any non-zero exit: reads current epoch from checkpoint-latest.pth,
+      waits 30 s, then resumes with --resume checkpoint-latest.pth
+    • Stops when: exit 0, OR epoch ≥ 19 (target reached), OR 5 consecutive
+      crashes with zero epoch progress (hard failure)
+    • Max 20 restart attempts total
+    • All events logged to $OUTPUT_DIR/watchdog.log
+
+────────────────────────────────────────────────────────────────────────────────
+UPDATE — 2026-05-08  (mount path corrected, dry-run timm fix, CDFv2 confirmed)
+────────────────────────────────────────────────────────────────────────────────
+  Mount path corrected:
+    OLD (stale) : /mnt/h200_dataset/gend_unified/
+    NEW (active): /mnt/h200_dataset/saad/datasets/gend_unified/
+    CIFS share  : //141.216.7.188/datasets mounted at /mnt/h200_dataset
+
+  Path remap in all scripts updated accordingly:
+    TXT_PATH_FROM = /data/saad/datasets/gend_unified
+    TXT_PATH_TO   = /mnt/h200_dataset/saad/datasets/gend_unified
+
+  CDFv2 samples: PRESENT (were only missing due to wrong mount path — now resolved)
+  All 2,457,215 real training frames are fully accessible.
+
+  timm 1.0.x interpolation fix applied (datasets.py line 293):
+    InterpolationMode.BICUBIC enum → 'bicubic' string
+    (timm 1.0.20 create_transform() requires string, not enum object)
+
+  Dry-run status: READY — rerun after mount confirmed:
+    bash scripts/dry_run.sh
+
+────────────────────────────────────────────────────────────────────────────────
+COMMANDS (dataset paths hard-coded in scripts — just run these)
+────────────────────────────────────────────────────────────────────────────────
+  cd /data/awais/projects/FSVFM
+
+  # Step 1: dry-run  (verifies data loading, balanced batches, GPU alloc)
+  bash scripts/dry_run.sh
+
+  # Step 2: full training via watchdog (auto-restarts on crash)
+  bash scripts/watchdog.sh
+
+  # Step 2b: full training without watchdog (single run)
+  bash scripts/train_fsvfm_composite.sh
+
+  # Resume a watchdog run that was manually stopped
+  bash scripts/watchdog.sh --resume experiments/<experiment_name>
+
+────────────────────────────────────────────────────────────────────────────────
+EXPECTED OUTPUT LAYOUT (per training run)
+────────────────────────────────────────────────────────────────────────────────
+experiments/fsvfm_vitl_composite_YYYYMMDD_HHMMSS/
+  progress.txt              ← dataset stats + per-epoch Acc/AUC/Real_Acc/Fake_Acc
+  result.txt                ← one row per epoch + FINAL_BEST row
+  train_log.txt             ← JSON per epoch (full stats)
+  config.json               ← all hyperparameters snapshot
+  checkpoint-best_auc.pth   ← best AUC on test set
+  checkpoint-best_acc.pth   ← best Accuracy on test set
+  checkpoint-min_loss.pth   ← lowest test loss
+  checkpoint-latest.pth     ← last saved (for crash recovery / resume)
+logs/fsvfm_vitl_composite_YYYYMMDD_HHMMSS/
+  train_stdout.log          ← full stdout
+  (TensorBoard events)
+
+================================================================================
+Resume this session with:
+claude --resume 94ef99f1-f880-4afa-a145-fa62a66002df

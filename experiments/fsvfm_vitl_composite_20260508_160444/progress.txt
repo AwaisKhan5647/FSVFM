@@ -1,0 +1,99 @@
+======================================================================
+FSVFM ViT-L/16 — Training Progress Log
+Started    : 2026-05-08 16:05
+Experiment : fsvfm_vitl_composite_20260508_160444
+Output dir : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444
+======================================================================
+
+DATASET
+-------
+  Train : 5,181,892 frames  (2,457,215 real  +  2,724,677 fake)
+  Test  :   142,038 frames  (   72,467 real  +     69,571 fake)
+  Test generators (FULLY UNSEEN — zero overlap with train):
+    CollabDiff, deepfacelab, heygen, MidJourney,
+    stargan, starganv2, styleclip, whichfaceisreal
+
+TRAINING CONFIG
+---------------
+  Model          : ViT-L/16  (vit_large_patch16, 303M params)
+  Pretrained     : FS-VFM-ViT-L.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6  (2× RTX 6000 Ada, ~50 GB each)
+  Batch / GPU    : 128  (64 real + 64 fake — strict balance every batch)
+  Effective batch: 256
+  Epochs         : 20  (warmup 2)
+  Base LR        : 5e-05  →  actual 5.00e-05
+  Balanced batch : Yes (DistributedBalancedSampler)
+  Augmentation   : Mixup 0.8 + CutMix 1.0 + RandAugment + RE 0.25
+======================================================================
+
+CHECKPOINT SUMMARY (as of 2026-05-10)
+--------------------------------------
+  All three best checkpoints are currently the SAME model (Epoch 3):
+
+  checkpoint-best_auc.pth  →  Epoch  3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+  checkpoint-best_acc.pth  →  Epoch  3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+  checkpoint-min_loss.pth  →  Epoch  3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+  checkpoint-latest.pth    →  Epoch 11  |  (most recent — updated every epoch)
+
+  Epoch 3 achieved the best AUC, Accuracy, and Loss simultaneously.
+  Each checkpoint will diverge independently once any future epoch
+  beats its respective metric.
+
+======================================================================
+
+EPOCH RESULTS (on fully unseen test generators)
+------------------------------------------------
+  Epoch |  Accuracy |      AUC | Real_Acc | Fake_Acc |    Loss | Notes
+  ------|-----------|----------|----------|----------|---------|------------------
+      1 |    82.06% |   89.93% |   87.55% |   76.33% |  0.4218 | warmup
+      2 |    83.65% |   91.56% |   83.41% |   83.90% |  0.3829 | warmup ends
+      3 |    85.44% |   92.89% |   87.55% |   83.25% |  0.3527 | *** BEST ALL ***
+      4 |    84.71% |   91.69% |   88.77% |   80.47% |  0.3728 |
+      5 |    84.11% |   91.02% |   86.94% |   81.16% |  0.3848 |
+      6 |    84.79% |   91.69% |   83.50% |   86.13% |  0.3742 |
+      7 |    83.29% |   90.39% |   82.20% |   84.44% |  0.3987 |
+      8 |    83.47% |   90.45% |   84.51% |   82.38% |  0.3993 |
+      9 |    84.81% |   91.28% |   83.63% |   86.04% |  0.3768 |
+     10 |    83.07% |   88.81% |   82.53% |   83.64% |  0.4201 |
+     11 |    83.70% |   89.97% |   83.44% |   83.96% |  0.4000 |
+     12 |       --- |      --- |      --- |      --- |     --- | in progress...
+
+##PROGRESS_START##
+
+──────────────────────────────────────────────────────────────────────
+LIVE TRAINING PROGRESS  (updated 2026-05-10 19:29:16)
+──────────────────────────────────────────────────────────────────────
+  Overall  [█████████████░░░░░░░] 65.7%  Epoch 14/20  |  Overall ETA: 1 day, 2:16:43
+
+  Current epoch 14/20:
+    Batch   : 3,150 / 21,287  (14.8%)
+    Speed   : 1.54batch/s
+    Elapsed : 34:03 into epoch
+    ETA     : 3:16:07 to finish epoch 14
+    Loss    : 0.6699
+
+  Completed epochs (14 / 20):
+  ────────────────────────────────────────────────────────────────────────
+   Ep   Accuracy       AUC   Real_Acc   Fake_Acc     Loss  Flags
+  ────────────────────────────────────────────────────────────────────────
+    1     82.06%    89.93%     87.55%     76.33%   0.4218  
+    2     83.65%    91.56%     83.41%     83.90%   0.3829  
+    3     85.44%    92.89%     87.55%     83.25%   0.3527  [BEST_AUC] [BEST_ACC] [BEST_LOSS]
+    4     84.71%    91.69%     88.77%     80.47%   0.3728  
+    5     84.11%    91.02%     86.94%     81.16%   0.3848  
+    6     84.79%    91.69%     83.50%     86.13%   0.3742  
+    7     83.29%    90.39%     82.20%     84.44%   0.3987  
+    8     83.47%    90.45%     84.51%     82.38%   0.3993  
+    9     84.81%    91.28%     83.63%     86.04%   0.3768  
+   10     83.07%    88.81%     82.53%     83.64%   0.4201  
+   11     83.70%    89.97%     83.44%     83.96%   0.4000  
+   12     83.11%    89.99%     80.60%     85.73%   0.4078  
+   12     83.04%    89.17%     82.11%     84.02%   0.4150  
+   13     83.04%    89.17%     82.11%     84.02%   0.4150  
+  ────────────────────────────────────────────────────────────────────────
+  Best so far → Epoch 3  AUC=92.89%  Acc=85.44%  Loss=0.3527
+──────────────────────────────────────────────────────────────────────
+
+##PROGRESS_END##
+Epoch  11 | train_loss=0.5559 | Acc=83.11% | AUC=89.99% | Real_Acc=80.60% | Fake_Acc=85.73%
+Epoch  12 | train_loss=0.5557 | Acc=83.04% | AUC=89.17% | Real_Acc=82.11% | Fake_Acc=84.02%

@@ -1,0 +1,30 @@
+# ============================================================
+# FSVFM ViT-L/16 — Training Results
+# Experiment : fsvfm_vitl_composite_20260508_160444
+# Started    : 2026-05-08 16:05
+# Dataset    : gend_unified (5.18M train / 142K test — 8 unseen generators)
+# GPUs       : 5,6  (2× RTX 6000 Ada, 51 GB) | Batch: 256 effective (balanced)
+# ============================================================
+#
+# CHECKPOINT SUMMARY (updated 2026-05-10)
+# ----------------------------------------
+# checkpoint-best_auc.pth  →  Epoch 3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+# checkpoint-best_acc.pth  →  Epoch 3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+# checkpoint-min_loss.pth  →  Epoch 3  |  AUC=92.89%  Acc=85.44%  Loss=0.3527
+# checkpoint-latest.pth    →  Epoch 11 |  (updates every epoch)
+# Note: All three best checkpoints are the same model — Epoch 3 achieved
+#       the best AUC, Accuracy, and Loss simultaneously.
+# ============================================================
+# Epoch | Accuracy | AUC | Real_Accuracy | Fake_Accuracy | Loss
+--------------------------------------------------------------------------------
+Epoch   1 | Accuracy=82.06% | AUC=89.93% | Real_Accuracy=87.55% | Fake_Accuracy=76.33% | Loss=0.4218
+Epoch   2 | Accuracy=83.65% | AUC=91.56% | Real_Accuracy=83.41% | Fake_Accuracy=83.90% | Loss=0.3829
+Epoch   3 [BEST_AUC][BEST_ACC][BEST_LOSS] | Accuracy=85.44% | AUC=92.89% | Real_Accuracy=87.55% | Fake_Accuracy=83.25% | Loss=0.3527
+Epoch   4 | Accuracy=84.71% | AUC=91.69% | Real_Accuracy=88.77% | Fake_Accuracy=80.47% | Loss=0.3728
+Epoch   5 | Accuracy=84.11% | AUC=91.02% | Real_Accuracy=86.94% | Fake_Accuracy=81.16% | Loss=0.3848
+Epoch   6 | Accuracy=84.79% | AUC=91.69% | Real_Accuracy=83.50% | Fake_Accuracy=86.13% | Loss=0.3742
+Epoch   7 | Accuracy=83.29% | AUC=90.39% | Real_Accuracy=82.20% | Fake_Accuracy=84.44% | Loss=0.3987
+Epoch   8 | Accuracy=83.47% | AUC=90.45% | Real_Accuracy=84.51% | Fake_Accuracy=82.38% | Loss=0.3993
+Epoch   9 | Accuracy=84.81% | AUC=91.28% | Real_Accuracy=83.63% | Fake_Accuracy=86.04% | Loss=0.3768
+Epoch  10 | Accuracy=83.07% | AUC=88.81% | Real_Accuracy=82.53% | Fake_Accuracy=83.64% | Loss=0.4201
+Epoch  11 | Accuracy=83.70% | AUC=89.97% | Real_Accuracy=83.44% | Fake_Accuracy=83.96% | Loss=0.4000

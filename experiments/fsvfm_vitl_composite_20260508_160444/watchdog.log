@@ -1,0 +1,8 @@
+[watchdog][2026-05-08 16:04:44] ========================================================
+[watchdog][2026-05-08 16:04:44] FSVFM Training Watchdog started
+[watchdog][2026-05-08 16:04:44] Output dir   : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444
+[watchdog][2026-05-08 16:04:44] Max restarts : 20
+[watchdog][2026-05-08 16:04:44] Target epochs: 20
+[watchdog][2026-05-08 16:04:44] ========================================================
+[watchdog][2026-05-08 16:04:44] Attempt 1: starting from scratch (no checkpoint yet)
+[watchdog][2026-05-08 16:04:44] Launching: bash /data/awais/projects/FSVFM/scripts/train_fsvfm_composite.sh --output_dir /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444 

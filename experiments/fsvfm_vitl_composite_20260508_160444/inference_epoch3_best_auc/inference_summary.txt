@@ -1,0 +1,53 @@
+======================================================================
+FSVFM Inference Summary — 2026-05-10 18:18:56
+Checkpoint : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/checkpoint-best_auc.pth
+  Epoch    : 3/20  (best_auc=92.89%)
+Test set   : 142,031 frames  |  4,731 videos
+Threshold  : 0.5
+----------------------------------------------------------------------
+FRAME-LEVEL RESULTS:
+  Accuracy      : 85.45%
+  AUC           : 92.89%
+  Real_Accuracy : 87.55%
+  Fake_Accuracy : 83.26%
+----------------------------------------------------------------------
+VIDEO-LEVEL RESULTS (mean-probability aggregation):
+  Accuracy      : 90.04%
+  AUC           : 96.74%
+  Real_Accuracy : 89.73%
+  Fake_Accuracy : 90.25%
+----------------------------------------------------------------------
+Outputs:
+  /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/inference_results.csv
+  /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/video_results.csv
+======================================================================
+
+======================================================================
+MISSING / CORRUPT FRAME AUDIT
+======================================================================
+Total expected frames : 142,038
+Successfully inferred : 142,029  (99.994%)
+Corrupt (0-byte)      :       9  (0.006%)
+
+All 9 missing frames are 0-byte empty files — no image data present.
+Cannot be inferred. Marked as CORRUPT in inference_results.csv.
+
+  #  GT  Generator          Filename
+  -  --  -----------------  ------------------------------------------------
+  1   0  starganv2 (real)   1132.jpg
+  2   0  starganv2 (real)   547.jpg
+  3   1  MidJourney (fake)  13592447708_Clean_East_Asian_female_..._ba354e74.png
+  4   1  MidJourney (fake)  13592447708_Clean_East_Asian_male_..._3ad609fd.png
+  5   1  MidJourney (fake)  13592447708_Single_person_East_Asian_..._75e759ff.png
+  6   1  MidJourney (fake)  13592447708_Single_person_white_female_..._72edc876.png
+  7   1  MidJourney (fake)  13592447708_Single_person_white_female_..._d28fc222.png
+  8   1  starganv2 (fake)   1096.jpg
+  9   1  starganv2 (fake)   779.jpg
+
+By generator:
+  starganv2  : 4 files (2 real + 2 fake)
+  MidJourney : 5 files (all fake)
+
+Note: Metrics above are computed on the 142,029 valid frames only.
+      Corrupt frames are recorded in inference_results.csv as CORRUPT.
+======================================================================
