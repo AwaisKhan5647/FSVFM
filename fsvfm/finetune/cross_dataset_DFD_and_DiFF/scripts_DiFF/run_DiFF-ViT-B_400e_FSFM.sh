@@ -11,7 +11,7 @@ OUTPUT_DIR='./checkpoint/finetuned_models/ViT-B_VF2_400e/FT_on_FF++_DF_c23_32fra
 TEST_RESULTS="${OUTPUT_DIR}/experiments_test/"
 
 # Fine-turning
-CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
+CUDA_VISIBLE_DEVICES=5,6 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
     --node_rank=0 \
     --nproc_per_node=2 \
     --master_port='29502' \
@@ -35,7 +35,7 @@ CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
     --output_dir "$OUTPUT_DIR"
 
 # Testing
-CUDA_VISIBLE_DEVICES=4,5 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
+CUDA_VISIBLE_DEVICES=5,6 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
     --nproc_per_node=2 \
     --master_port='29502' \
     main_test_DiFF.py \

@@ -11,7 +11,7 @@ FINETUNE_DATA_PATH='../../../datasets/finetune_datasets/deepfakes_detection/Face
 OUTPUT_DIR='./checkpoint/finetuned_models/ViT-B_VF2_600e/FT_on_FF++_DF_c23_32frames'
 
 # Fine-tuning arguments
-CUDA_VISIBLE_DEVICES=2,3 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
+CUDA_VISIBLE_DEVICES=5,6 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
     --node_rank=0 \
     --nproc_per_node=2 \
     --master_port='29502' \
@@ -40,7 +40,7 @@ CUDA_VISIBLE_DEVICES=2,3 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
 TEST_RESULTS="${OUTPUT_DIR}/experiments_test/"
 
 # Testing arguments
-CUDA_VISIBLE_DEVICES=2,3 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
+CUDA_VISIBLE_DEVICES=5,6 OMP_NUM_THREADS=1 python -m torch.distributed.launch \
     --nproc_per_node=2 \
     --master_port='29502' \
     main_test_DiFF.py \
