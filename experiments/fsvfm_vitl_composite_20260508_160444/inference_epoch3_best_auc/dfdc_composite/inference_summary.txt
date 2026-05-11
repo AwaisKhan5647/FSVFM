@@ -1,0 +1,23 @@
+======================================================================
+FSVFM Inference Summary — 2026-05-10 23:57:00
+Checkpoint : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  Epoch    : 3/20  (best_auc=92.89%)
+Test set   : 70,440 frames  |  2,197 videos
+Threshold  : 0.5
+----------------------------------------------------------------------
+FRAME-LEVEL RESULTS:
+  Accuracy      : 75.61%
+  AUC           : 84.35%
+  Real_Accuracy : 78.27%
+  Fake_Accuracy : 72.97%
+----------------------------------------------------------------------
+VIDEO-LEVEL RESULTS (mean-probability aggregation):
+  Accuracy      : 77.51%
+  AUC           : 87.29%
+  Real_Accuracy : 80.31%
+  Fake_Accuracy : 74.75%
+----------------------------------------------------------------------
+Outputs:
+  /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/dfdc_composite/inference_results.csv
+  /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/dfdc_composite/video_results.csv
+======================================================================

@@ -20,9 +20,14 @@ experiments/*/log_detail.txt
 experiments/*/progress_watcher.log
 logs/
 
-# Large inference CSVs (derived, reproducible)
+# Large inference CSVs and per-dataset result CSVs (derived, reproducible)
 experiments/*/inference_*/inference_results.csv
 experiments/*/inference_*/video_results.csv
+experiments/*/inference_*/**/*.csv
+experiments/*/inference_*/*.csv
+*.txt.bak
+/tmp/rewind_*.txt
+/tmp/dfdc_*.txt
 
 # Keep human-readable results and configs
 !experiments/*/result.txt
@@ -31,3 +36,4 @@ experiments/*/inference_*/video_results.csv
 !experiments/*/train_log.txt
 !experiments/*/watchdog.log
 !experiments/*/inference_*/inference_summary.txt
+.result_written

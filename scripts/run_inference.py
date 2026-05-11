@@ -81,14 +81,22 @@ class FrameDataset(Dataset):
             return dummy, label, path + "__CORRUPT__"
 
 
-def build_val_transform(input_size=224):
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD  = [0.229, 0.224, 0.225]
+VGGFACE2_MEAN = [0.5482207536697388,  0.42340534925460815, 0.3654651641845703]
+VGGFACE2_STD  = [0.2789176106452942,  0.2438540756702423,  0.23493893444538116]
+
+
+def build_val_transform(input_size=224, use_vggface_norm=False):
     crop_pct = 224 / 256
     size = int(input_size / crop_pct)
+    mean = VGGFACE2_MEAN if use_vggface_norm else IMAGENET_MEAN
+    std  = VGGFACE2_STD  if use_vggface_norm else IMAGENET_STD
     return transforms.Compose([
         transforms.Resize(size, interpolation=transforms.InterpolationMode.BICUBIC),
         transforms.CenterCrop(input_size),
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        transforms.Normalize(mean=mean, std=std),
     ])
 
 
@@ -137,6 +145,10 @@ def main():
     parser.add_argument("--num_workers",      default=8,   type=int)
     parser.add_argument("--threshold",        default=0.5, type=float)
     parser.add_argument("--model",            default="vit_large_patch16")
+    parser.add_argument("--fake_class_idx",   default=1,   type=int,
+                        help="Class index the model uses for FAKE (1=default, 0=baseline paper)")
+    parser.add_argument("--use_vggface_norm", action="store_true", default=False,
+                        help="Use VGGFace2 normalization instead of ImageNet (for paper baseline)")
     args = parser.parse_args()
 
     # DDP init
@@ -166,7 +178,10 @@ def main():
               f"min_loss={ckpt.get('min_test_loss',0):.4f}")
 
     # ----- Dataset -----
-    transform = build_val_transform(args.input_size)
+    transform = build_val_transform(args.input_size, args.use_vggface_norm)
+    if is_main():
+        norm_tag = "VGGFace2" if args.use_vggface_norm else "ImageNet"
+        print(f"Normalization: {norm_tag}  |  fake_class_idx={args.fake_class_idx}")
     dataset = FrameDataset(
         args.real_txt, args.fake_txt, transform,
         args.path_remap_from, args.path_remap_to,
@@ -192,7 +207,7 @@ def main():
             imgs = imgs.to(device, non_blocking=True)
             with torch.cuda.amp.autocast():
                 logits = model(imgs)
-            probs = F.softmax(logits, dim=1)[:, 1].cpu().numpy()
+            probs = F.softmax(logits, dim=1)[:, args.fake_class_idx].cpu().numpy()
             local_paths.extend(paths)
             local_probs.extend(probs.tolist())
             local_labels.extend(labels.numpy().tolist())

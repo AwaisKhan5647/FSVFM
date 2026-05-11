@@ -1,0 +1,158 @@
+==============================================================================
+FSVFM MODEL COMPARISON — Frame-level & Video-level Results
+Generated : 2026-05-10 23:59:23
+==============================================================================
+
+MODELS
+------
+  FSFM_Composite : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+    (Epoch 3, fine-tuned on gend_unified composite dataset)
+  FSFM_Baseline  : /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth
+    (Paper's provided ViT-L/16 checkpoint, trained on DfD/DiFF)
+
+DATASET PATHS
+-------------
+  Test set root  : /mnt/h200_dataset/saad/datasets/gend_unified
+  Real txt       : /mnt/h200_dataset/saad/datasets/gend_unified/0_real_test.txt  (108,507 frames, incl. ReWIND + DFDC)
+  Fake txt       : /mnt/h200_dataset/saad/datasets/gend_unified/1_fake_test.txt  (105,893 frames, incl. ReWIND + DFDC)
+  Composite CSV  : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/inference_results.csv
+  Baseline CSV   : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/inference_epoch3_best_auc/baseline/inference_results.csv
+
+DATASETS EVALUATED
+------------------
+  DF40test    :  31,229 frames  (real=17,065  fake=14,164)
+  FFIW        : 110,800 frames  (real=55,400  fake=55,400)
+  ReWIND      :   1,922 frames  (real=960  fake=962)
+  DFDC        :  70,440 frames  (real=35,080  fake=35,360)
+
+==============================================================================
+DATASET: DF40test
+  Frames : 31,229  (real=17,065  fake=14,164)
+  Videos : 1,261
+==============================================================================
+
+  FRAME-LEVEL RESULTS
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             87.10%    92.34%     87.93%     86.10%
+  FSFM_Baseline              69.09%    78.96%     99.13%     32.90%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +18.01%   +13.38%    -11.20%    +53.20%
+
+  VIDEO-LEVEL RESULTS  (mean-probability per clip)
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             95.64%    98.29%     90.48%     96.11%
+  FSFM_Baseline              21.09%    82.38%     99.05%     14.01%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +74.54%   +15.91%     -8.57%    +82.09%
+
+==============================================================================
+DATASET: FFIW
+  Frames : 110,800  (real=55,400  fake=55,400)
+  Videos : 3,470
+==============================================================================
+
+  FRAME-LEVEL RESULTS
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             84.98%    93.12%     87.43%     82.53%
+  FSFM_Baseline              67.16%    85.15%     95.87%     38.45%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +17.82%    +7.97%     -8.45%    +44.08%
+
+  VIDEO-LEVEL RESULTS  (mean-probability per clip)
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             88.01%    95.63%     89.68%     86.34%
+  FSFM_Baseline              67.95%    89.95%     98.21%     37.69%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +20.06%    +5.68%     -8.53%    +48.65%
+
+==============================================================================
+DATASET: ReWIND
+  Frames : 1,922  (real=960  fake=962)
+  Videos : 42
+==============================================================================
+
+  FRAME-LEVEL RESULTS
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             94.85%    98.87%     97.29%     92.41%
+  FSFM_Baseline              52.34%    50.06%     99.90%      4.89%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +42.51%   +48.81%     -2.60%    +87.53%
+
+  VIDEO-LEVEL RESULTS  (mean-probability per clip)
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             85.71%    95.42%     86.96%     84.21%
+  FSFM_Baseline              54.76%    61.78%    100.00%      0.00%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +30.95%   +33.64%    -13.04%    +84.21%
+
+==============================================================================
+DATASET: DFDC
+  Frames : 70,440  (real=35,080  fake=35,360)
+  Videos : 2,197
+==============================================================================
+
+  FRAME-LEVEL RESULTS
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             75.61%    84.35%     78.27%     72.97%
+  FSFM_Baseline              61.70%    76.84%     99.00%     24.69%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +13.91%    +7.52%    -20.73%    +48.27%
+
+  VIDEO-LEVEL RESULTS  (mean-probability per clip)
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             77.51%    87.29%     80.31%     74.75%
+  FSFM_Baseline              60.81%    82.58%     99.82%     22.26%
+  ------------------------------------------------------------
+  Delta (Comp - Base)       +16.70%    +4.71%    -19.51%    +52.49%
+
+==============================================================================
+AVERAGE ACROSS ALL DATASETS
+==============================================================================
+
+  FRAME-LEVEL AVERAGES
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             85.63%    92.17%     87.73%     83.50%
+  FSFM_Baseline              62.57%    72.75%     98.47%     25.23%
+  ------------------------------------------------------------
+  Avg Delta (C - B)         +23.06%   +19.42%    -10.74%    +58.27%
+
+  VIDEO-LEVEL AVERAGES
+  ------------------------------------------------------------
+  Model                    Accuracy       AUC   Real_Acc   Fake_Acc
+  ------------------------------------------------------------
+  FSFM_Composite             86.72%    94.16%     86.86%     85.35%
+  FSFM_Baseline              51.16%    79.17%     99.27%     18.49%
+  ------------------------------------------------------------
+  Avg Delta (C - B)         +35.56%   +14.99%    -12.41%    +66.86%
+
+==============================================================================
+OUTPUT FILES
+==============================================================================
+  FSFM_DF40test_FSFM_Composite.csv
+  FSFM_DF40test_FSFM_Baseline.csv
+  FSFM_FFIW_FSFM_Composite.csv
+  FSFM_FFIW_FSFM_Baseline.csv
+  FSFM_ReWIND_FSFM_Composite.csv
+  FSFM_ReWIND_FSFM_Baseline.csv
+  FSFM_DFDC_FSFM_Composite.csv
+  FSFM_DFDC_FSFM_Baseline.csv
+  summary_results.txt  (this file)
+==============================================================================
