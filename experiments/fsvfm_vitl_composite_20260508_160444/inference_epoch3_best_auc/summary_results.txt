@@ -156,3 +156,87 @@ OUTPUT FILES
   FSFM_DFDC_FSFM_Baseline.csv
   summary_results.txt  (this file)
 ==============================================================================
+
+==============================================================================
+DATASET: image_eval24  (Image-level evaluation)
+Generated : 2026-05-17 20:58:51
+Checkpoint: FSFM_best_checkpoint.pth  (Epoch 3, AUC=92.89% on gend_unified)
+Dataset   : /data/saad/datasets/images/image_eval24
+Split     : Test  (786 images — 305 real, 481 fake)
+Labels    : from image-metadata-publish-with-links.csv + folder structure
+Note      : Image dataset (no video aggregation — frame-level = image-level)
+-
+RESULTS (FSFM_Composite model):
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+
+-
+Output CSV: FSFM_image_eval24_FSFM_Composite.csv  (786 rows)
+
+==============================================================================
+ADDITIONAL DATASET EVALUATION — IMAGE-LEVEL RESULTS
+Generated : 2026-05-17 21:40:17
+==============================================================================
+
+MODELS
+------
+  FSFM_Composite : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+    (Epoch 3, fine-tuned on gend_unified composite dataset)
+  FSFM_Baseline  : /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth
+    (Paper ViT-L/16, FaceForensics++ c23, VGGFace2 norm)
+
+NOTE: All datasets below are image-level (no video aggregation).
+      Metrics are computed directly on individual images.
+      Decision threshold = 0.5
+
+==============================================================================
+DATASET: image_eval24
+  Path     : /data/saad/datasets/images/image_eval24
+  Split    : Test split from image-metadata-publish-with-links.csv
+  Samples  : 786  (real=305  fake=481)
+  Labels   : Ground Truth column + folder structure (Real/Fake)
+  Missing  : 5 rows with #NAME? Excel errors — excluded
+==============================================================================
+  Model                        Accuracy       AUC   Real_Acc   Fake_Acc   Samples
+  --------------------------------------------------------------------------
+  FSFM_Composite                 63.87%    70.77%     74.75%     56.96%      786
+  FSFM_Baseline                  41.35%    56.39%     98.36%      5.20%      786
+  --------------------------------------------------------------------------
+  Delta (Comp-Base)             +22.52%   +14.38%    -23.61%    +51.77%
+
+==============================================================================
+DATASET: ReWIND_images
+  Path     : /data/saad/datasets/images/ancestree/ReWIND
+  Structure: 0_real/{RRDataset,viral_bfree}/REAL  |  1_fake/{google_factcheck,viral_bfree,FOSID}/FAKE
+  Samples  : 5,583  (real=2,439  fake=3,144)
+  Labels   : Folder structure (0_real / 1_fake)
+  Model    : FSFM_Composite only
+==============================================================================
+  Model                        Accuracy       AUC   Real_Acc   Fake_Acc   Samples
+  --------------------------------------------------------------------------
+  FSFM_Composite                 55.96%    67.81%     82.21%     35.59%    5,583
+
+==============================================================================
+DATASET: AIGI_TEST
+  Path     : /data/kutub/datasets/AIGI/TEST
+  Generators: biggan, crn, cyclegan, dalle, deepfake, gaugan, glide_100_10/27,
+              glide_50_27, guided, imle, ldm_100/200/200_cfg, progan (20 classes),
+              san, stargan, stid, stylegan/2 (bedroom/car/cat/church/horse)
+  Samples  : 104,332  (real=52,172  fake=52,160)
+  Labels   : Folder structure (0_real / 1_fake)
+  Model    : FSFM_Composite only
+==============================================================================
+  Model                        Accuracy       AUC   Real_Acc   Fake_Acc   Samples
+  --------------------------------------------------------------------------
+  FSFM_Composite                 55.97%    59.68%     65.10%     46.84%  104,332
+
+==============================================================================
+OUTPUT CSVs (this session)
+==============================================================================
+  FSFM_image_eval24_FSFM_Composite.csv   (786 rows)
+  FSFM_image_eval24_FSFM_Baseline.csv    (786 rows)
+  FSFM_ReWIND_img_FSFM_Composite.csv     (5,583 rows)
+  FSFM_AIGI_TEST_FSFM_Composite.csv      (104,332 rows)
+==============================================================================

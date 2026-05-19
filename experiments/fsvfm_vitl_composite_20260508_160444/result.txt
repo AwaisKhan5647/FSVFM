@@ -8895,3 +8895,5891 @@ Output files:
   dfdc_composite/inference_results.csv  (70,440 rows)
   dfdc_composite/video_results.csv      (2,197 rows)
 =
+
+======================================================================
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 20:57:54
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+FRAME-LEVEL:
+  Accuracy      : 63.87%
+  AUC           : 70.77%
+  Real_Accuracy : 74.75%
+  Fake_Accuracy : 56.96%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24/inference_results.csv  (786 rows)
+  image_eval24/video_results.csv      (2 rows)
+=
+
+======================================================================
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 10 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:45
+Test set: 786 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+FRAME-LEVEL:
+  Accuracy      : 41.35%
+  AUC           : 56.39%
+  Real_Accuracy : 98.36%
+  Fake_Accuracy : 5.20%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+-
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+Output files:
+  image_eval24_baseline/inference_results.csv  (786 rows)
+  image_eval24_baseline/video_results.csv      (2 rows)
+=
+
+======================================================================
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:10:53
+Test set: 5,583 frames  |  80 videos  |  8 unseen generators
+Threshold: 0.5
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.96%
+  AUC           : 67.81%
+  Real_Accuracy : 82.21%
+  Fake_Accuracy : 35.59%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+VIDEO-LEVEL (80 videos — mean-prob aggregation):
+  Accuracy      : 61.25%
+  AUC           : 66.50%
+  Real_Accuracy : 67.44%
+  Fake_Accuracy : 54.05%
+-
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+Output files:
+  rewind_img/inference_results.csv  (5,583 rows)
+  rewind_img/video_results.csv      (80 rows)
+=
+
+======================================================================
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+INFERENCE RESULTS — Epoch 3 (checkpoint-best_auc.pth)
+Run at: 2026-05-17 21:13:53
+Test set: 104,332 frames  |  2 videos  |  8 unseen generators
+Threshold: 0.5
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+FRAME-LEVEL:
+  Accuracy      : 55.97%
+  AUC           : 59.68%
+  Real_Accuracy : 65.10%
+  Fake_Accuracy : 46.84%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+VIDEO-LEVEL (2 videos — mean-prob aggregation):
+  Accuracy      : 100.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 100.00%
+-
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=
+Output files:
+  aigi_test/inference_results.csv  (104,332 rows)
+  aigi_test/video_results.csv      (2 rows)
+=

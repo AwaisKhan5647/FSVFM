@@ -1,0 +1,98 @@
+==============================================================================
+FSVFM MODEL COMPARISON — VIDEO-LEVEL RESULTS
+Generated : 2026-05-11 01:10:22
+==============================================================================
+
+MODELS
+------
+  FSFM_Composite : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+    (Epoch 3, fine-tuned on gend_unified — 5.18M frames, 42 generators)
+  FSFM_Baseline  : /data/awais/projects/GenD_NeSy/weights/FS-VFM/FS-VFM-ViT-L.pth
+    (Paper's ViT-L/16, trained on FaceForensics++ c23)
+
+METHOD
+------
+  Video probability = mean of all frame probabilities in the clip
+  Decision threshold = 0.5
+  GT label derived from path: 0_real/ → real(0), 1_fake/ → fake(1)
+
+NOTE ON FRAME-LEVEL CSVs
+------------------------
+  The per-dataset frame-level CSVs (FSFM_{dataset}_{model}.csv) contain
+  one row per frame: fileid (full frame path), probability, decision.
+  The video-level CSVs (FSFM_{dataset}_{model}_video.csv) contain
+  one row per video clip: fileid (clip folder name), mean probability,
+  decision. Both sets saved in the same output directory.
+
+==============================================================================
+DATASET: DF40test
+  Videos : 1,261  (real=105  fake=1,156)
+==============================================================================
+
+  Model                      Accuracy       AUC   Real_Acc   Fake_Acc  N_videos
+  --------------------------------------------------------------------
+  FSFM_Composite               95.64%    98.29%     90.48%     96.11%     1,261
+  FSFM_Baseline                21.09%    82.38%     99.05%     14.01%     1,261
+  --------------------------------------------------------------------
+  Delta (Comp-Base)           +74.54%   +15.91%     -8.57%    +82.09%
+
+==============================================================================
+DATASET: DFDC
+  Videos : 2,197  (real=1,092  fake=1,105)
+==============================================================================
+
+  Model                      Accuracy       AUC   Real_Acc   Fake_Acc  N_videos
+  --------------------------------------------------------------------
+  FSFM_Composite               77.51%    87.29%     80.31%     74.75%     2,197
+  FSFM_Baseline                60.81%    82.58%     99.82%     22.26%     2,197
+  --------------------------------------------------------------------
+  Delta (Comp-Base)           +16.70%    +4.71%    -19.51%    +52.49%
+
+==============================================================================
+DATASET: FFIW
+  Videos : 3,470  (real=1,735  fake=1,735)
+==============================================================================
+
+  Model                      Accuracy       AUC   Real_Acc   Fake_Acc  N_videos
+  --------------------------------------------------------------------
+  FSFM_Composite               88.01%    95.63%     89.68%     86.34%     3,470
+  FSFM_Baseline                67.95%    89.95%     98.21%     37.69%     3,470
+  --------------------------------------------------------------------
+  Delta (Comp-Base)           +20.06%    +5.68%     -8.53%    +48.65%
+
+==============================================================================
+DATASET: ReWIND
+  Videos : 42  (real=23  fake=19)
+==============================================================================
+
+  Model                      Accuracy       AUC   Real_Acc   Fake_Acc  N_videos
+  --------------------------------------------------------------------
+  FSFM_Composite               85.71%    95.42%     86.96%     84.21%        42
+  FSFM_Baseline                54.76%    61.78%    100.00%      0.00%        42
+  --------------------------------------------------------------------
+  Delta (Comp-Base)           +30.95%   +33.64%    -13.04%    +84.21%
+
+==============================================================================
+AVERAGE ACROSS ALL DATASETS
+==============================================================================
+
+  Model                      Accuracy       AUC   Real_Acc   Fake_Acc
+  ----------------------------------------------------------------
+  FSFM_Composite               86.72%    94.16%     86.86%     85.35%
+  FSFM_Baseline                51.16%    79.17%     99.27%     18.49%
+  ----------------------------------------------------------------
+  Avg Delta (C-B)             +35.56%   +14.99%    -12.41%    +66.86%
+
+==============================================================================
+OUTPUT FILES
+==============================================================================
+  FSFM_DF40test_FSFM_Composite_video.csv
+  FSFM_DF40test_FSFM_Baseline_video.csv
+  FSFM_DFDC_FSFM_Composite_video.csv
+  FSFM_DFDC_FSFM_Baseline_video.csv
+  FSFM_FFIW_FSFM_Composite_video.csv
+  FSFM_FFIW_FSFM_Baseline_video.csv
+  FSFM_ReWIND_FSFM_Composite_video.csv
+  FSFM_ReWIND_FSFM_Baseline_video.csv
+  summary_results_video.txt  (this file)
+==============================================================================
