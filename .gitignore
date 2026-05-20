@@ -50,6 +50,10 @@ experiment_image/runs/__pycache__/
 experiment_image/__pycache__/
 experiment_image/augmentations/__pycache__/
 experiment_image/pipeline_state.env
+experiment_image/runs/dry_run_*/
+experiment_image/runs/*/.step_*.done
+experiment_image/runs/*/events.out.tfevents.*
+.claude/
 
 # Keep human-readable experiment_image outputs
 !experiment_image/runs/*/result.txt
