@@ -1,0 +1,191 @@
+================================================================================
+COMPRESSION-AWARE AUGMENTATION PIPELINE
+FSVFM Image-Robust Training
+================================================================================
+Module : experiment_image/augmentations/compression_augment.py
+Config : experiment_image/configs/augment_default.json
+Applied: Training only (disabled at eval/inference)
+Order  : Augmentations run sequentially in the order listed below.
+         Each is an independent Bernoulli draw — multiple ops can fire on
+         the same image.  All ops work on PIL Images (before normalization).
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+OP 1 — BICUBIC RESIZE / DOWNSAMPLING ARTIFACT
+────────────────────────────────────────────────────────────────────────────────
+  Probability : 35%
+  Scale range : 50 – 90%  of original dimensions (uniform)
+  Mechanism   : Downsample to (W×scale, H×scale) with BICUBIC interpolation,
+                then upsample back to original size with BICUBIC.
+  Simulates   : Social-media thumbnail generation, mobile upload rescaling,
+                messaging app image compression pipelines that resize before
+                re-encoding.  Introduces blocking and ringing artifacts at
+                edges, and destroys sub-pixel frequency content used by some
+                detectors.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 2 — JPEG SINGLE-PASS RECOMPRESSION
+────────────────────────────────────────────────────────────────────────────────
+  Probability   : 60%
+  Quality range : Q=40 – Q=95  (uniform)
+  Subsampling   : 4:4:4  (subsampling=0, preserves chroma detail)
+  Mechanism     : Encode to JPEG in memory (BytesIO), decode back to RGB PIL.
+  Simulates     : Single upload to any platform (WhatsApp, Facebook, Twitter/X,
+                  Telegram) that applies JPEG at their chosen quality factor.
+                  At Q<60 the DCT block boundaries (8×8 grid) become visible and
+                  quantisation noise smears fine-grained forgery traces.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 3 — DOUBLE JPEG RECOMPRESSION  (download → re-upload)
+────────────────────────────────────────────────────────────────────────────────
+  Probability       : 30%
+  First pass  Q     : Q1 = 65 – 95  (high quality, original upload)
+  Second pass Q     : Q2 = 40 – 85  (lower quality, screenshot / re-share)
+  Mechanism         : Two sequential in-memory JPEG encode/decode cycles.
+  Simulates         : The most common real-world deepfake distribution path —
+                      creator exports at high quality, platform compresses on
+                      upload (pass 1), a viewer screenshots and re-shares
+                      (pass 2).  Double compression introduces cross-frequency
+                      interference between the two DCT grids when Q1 ≠ Q2,
+                      producing distinctive "checkerboard ghost" artifacts that
+                      are the hardest for naive detectors to handle.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 4 — WEBP RECOMPRESSION
+────────────────────────────────────────────────────────────────────────────────
+  Probability   : 20%
+  Quality range : Q=50 – Q=90  (uniform)
+  Encode method : method=4  (balanced speed/quality)
+  Mechanism     : Encode to WEBP in memory, decode back to RGB PIL.
+  Simulates     : Chrome/Android automatic WEBP conversion, Google Images,
+                  modern CDN pipelines (Cloudflare Image Resizing, Imgix).
+                  WEBP uses a different transform (DCT + Walsh-Hadamard) that
+                  produces artifacts distinct from JPEG — flat colour banding
+                  and edge over-smoothing at low quality.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 5 — GAUSSIAN BLUR
+────────────────────────────────────────────────────────────────────────────────
+  Probability  : 30%
+  Sigma range  : σ = 0.3 – 2.0 pixels  (uniform)
+  Mechanism    : PIL ImageFilter.GaussianBlur(radius=σ)
+  Simulates    : Camera focus blur, motion blur from handheld video screenshots,
+                 downscale antialiasing applied by re-hosting services, and the
+                 natural low-pass filtering introduced by display→camera
+                 screenshot capture.  Also models "softening" post-processing
+                 applied by some face-swap pipelines to hide blending seams.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 6 — SHARPENING / UNSHARP MASKING
+────────────────────────────────────────────────────────────────────────────────
+  Probability    : 25%
+  Factor range   : 1.5× – 4.0×  (uniform, where 1.0 = no change)
+  Mechanism      : PIL ImageEnhance.Sharpness(img).enhance(factor)
+  Simulates      : Auto-enhancement applied by Instagram, Snapchat, and Samsung
+                   camera apps; "AI upscaling" sharpening from super-resolution
+                   tools; and Photoshop "Smart Sharpen" used by forgery creators
+                   to recover detail lost in blending.  Over-sharpening creates
+                   halo artifacts around edges that naive detectors can mistake
+                   for manipulation traces, forcing the model to learn more
+                   robust features.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 7 — ADDITIVE GAUSSIAN NOISE
+────────────────────────────────────────────────────────────────────────────────
+  Probability : 25%
+  Std range   : σ = 0.5% – 4.0%  of the [0,255] pixel range (uniform)
+                → σ_pixels = 1.3 – 10.2 out of 255
+  Mechanism   : Sample N(0, σ²) per pixel per channel, add, clip [0,255].
+  Simulates   : Sensor noise from low-light screenshots, CCTV frame captures,
+                noise introduced by lossy audio/video codecs on image tracks,
+                and stochastic dithering applied by some image hosting pipelines.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 8 — COLOR / SATURATION / BRIGHTNESS DEGRADATION
+────────────────────────────────────────────────────────────────────────────────
+  Probability   : 25%
+  Brightness    : factor ∈ [0.80, 1.20]  (±20%)
+  Contrast      : factor ∈ [0.80, 1.20]  (±20%)
+  Saturation    : factor ∈ [0.70, 1.30]  (±30%)
+  Mechanism     : Three independent PIL ImageEnhance calls (Brightness,
+                  Contrast, Color/Saturation).  Each draws its own factor.
+  Simulates     : Color-profile mismatches between devices and platforms,
+                  auto white-balance correction, Instagram / TikTok filters,
+                  and the colour shift introduced when a real-world photo is
+                  re-photographed from a screen.
+
+────────────────────────────────────────────────────────────────────────────────
+OP 9 — POSTERIZATION  (bit-depth reduction)
+────────────────────────────────────────────────────────────────────────────────
+  Probability : 10%
+  Bits range  : 5 – 7 bits per channel  (uniform integer)
+  Mechanism   : PIL ImageOps.posterize(img, bits)
+                → rounds each channel to the nearest 2^(8-bits) boundary
+  Simulates   : Screenshot quantisation on low-colour-depth displays, GIF/PNG
+                palette reduction, and the banding visible in screenshots taken
+                from older Android devices or broadcast captures.
+
+
+================================================================================
+STANDARD AUGMENTATION (applied AFTER compression aug, via timm auto-augment)
+================================================================================
+  Pipeline   : timm create_transform(is_training=True)
+  Strategy   : RandAugment  — rand-m9-mstd0.5-inc1
+  Random crop: RandomResizedCrop(224, scale=(0.08,1.0), BICUBIC)
+  Flip       : RandomHorizontalFlip(p=0.5)
+  Erase      : RandomErasing(prob=0.25, mode=pixel, count=1)
+  Mixup      : α=0.8
+  CutMix     : α=1.0
+  Normalize  : ImageNet mean=[0.485,0.456,0.406]  std=[0.229,0.224,0.225]
+
+
+================================================================================
+EXECUTION ORDER (per training sample)
+================================================================================
+
+  [RAW PIL IMAGE]
+       │
+       ▼
+  ① Resize artifact       (p=0.35)  — downsample + upsample
+  ② JPEG single pass      (p=0.60)  — Q ∈ [40, 95]
+  ③ Double JPEG           (p=0.30)  — Q1 ∈ [65,95], Q2 ∈ [40,85]
+  ④ WEBP                  (p=0.20)  — Q ∈ [50, 90]
+  ⑤ Gaussian blur         (p=0.30)  — σ ∈ [0.3, 2.0]
+  ⑥ Sharpening            (p=0.25)  — factor ∈ [1.5, 4.0]
+  ⑦ Gaussian noise        (p=0.25)  — σ ∈ [0.5%, 4.0%]
+  ⑧ Color/contrast/sat    (p=0.25)  — ±20% brightness & contrast, ±30% sat
+  ⑨ Posterize             (p=0.10)  — 5–7 bits/channel
+       │
+       ▼
+  [DEGRADED PIL IMAGE]
+       │
+       ▼
+  RandAugment (timm) → RandomResizedCrop → Flip → ToTensor → Normalize
+       │
+       ▼
+  [TENSOR — fed to ViT-L/16]
+
+
+================================================================================
+RATIONALE
+================================================================================
+  The augmentation order mirrors the typical social-media lifecycle:
+
+  1. A deepfake is created and exported at high quality.
+  2. It is RESIZED to fit a platform's upload dimensions.
+  3. It is JPEG-compressed by the platform on ingest (first pass).
+  4. A viewer downloads and re-shares it (DOUBLE JPEG or WEBP recompression).
+  5. The re-shared image may be further BLURRED by display or capture.
+  6. The viewer's app may AUTO-SHARPEN it for aesthetics.
+  7. Sensor NOISE is added by cameras photographing screens.
+  8. COLOR differences arise from display/camera calibration mismatches.
+  9. BIT-DEPTH reduction occurs on legacy displays and in GIF/PNG exports.
+
+  Training on this distribution forces the ViT backbone to learn
+  manipulation-indicative features (GAN frequency fingerprints, blending
+  boundary statistics, inconsistent noise patterns) that survive compression
+  rather than memorising the clean high-frequency artifacts present in
+  pristine deepfake outputs.
+
+================================================================================

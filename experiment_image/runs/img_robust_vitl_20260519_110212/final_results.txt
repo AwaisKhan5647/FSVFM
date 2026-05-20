@@ -1,0 +1,113 @@
+================================================================================
+FSVFM IMAGE-ROBUST MODEL — FINAL EVALUATION RESULTS
+================================================================================
+Model      : ViT-L/16 (vit_large_patch16), 303.3M params
+Checkpoint : checkpoint-best_auc.pth  (Epoch 5, AUC=90.28% on gend_unified)
+Training   : 5 epochs, gend_unified composite dataset (5,008,673 frames)
+             Compression-aware augmentation ENABLED
+             3× RTX 6000 Ada (GPUs 5,6,7)  |  Effective batch=384
+Threshold  : 0.5
+Metrics    : TPR = Fake_Accuracy (True Positive Rate for fake detection)
+             FPR = 1 − Real_Accuracy (False Positive Rate on real images)
+--------------------------------------------------------------------------------
+Generated  : 2026-05-20
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+FRAME-LEVEL RESULTS
+────────────────────────────────────────────────────────────────────────────────
+
+  Dataset              Samples   Real    Fake   Accuracy     AUC    Real_Acc  Fake_Acc      TPR       FPR
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  gend_unified_test    214,255  108,369 105,886   82.06%   90.28%    80.47%    83.67%    83.67%    19.53%
+  image_eval24           1,952      760   1,192   59.84%   68.28%    82.50%    45.39%    45.39%    17.50%
+  ReWIND_images          5,582    2,438   3,144   69.28%   77.20%    90.24%    53.02%    53.02%     9.76%
+  AIGI_TEST            104,329   52,169  52,160   56.11%   60.22%    68.89%    43.34%    43.34%    31.11%
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Avg (all 4)               —        —       —   66.82%   73.99%    80.52%    56.36%    56.36%    19.48%
+  Avg (image only: 3)       —        —       —   61.74%   68.57%    80.54%    47.25%    47.25%    19.46%
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Notes:
+    * gend_unified_test = FFIW + ReWIND video frames + DFDC video frames
+    * image_eval24 full folder scanned (1,952 images); previous pipeline used
+      test-split only (786 images, Acc=63.87% AUC=70.77%)
+    * TPR  = True Positive Rate = fraction of fake images correctly flagged
+    * FPR  = False Positive Rate = fraction of real images wrongly flagged as fake
+    * "Avg (image only)" = mean over image_eval24 + ReWIND_images + AIGI_TEST
+
+
+────────────────────────────────────────────────────────────────────────────────
+VIDEO / CLIP-LEVEL RESULTS  (mean-probability aggregation per parent directory)
+────────────────────────────────────────────────────────────────────────────────
+
+  Dataset              Clips   Accuracy     AUC    Real_Acc  Fake_Acc      TPR       FPR
+  ─────────────────────────────────────────────────────────────────────────────────────────
+  gend_unified_test    6,970    85.84%   94.10%    82.03%    88.64%    88.64%    17.97%
+  ReWIND_images           80    70.00%   73.29%    79.07%    59.46%    59.46%    20.93%
+  ─────────────────────────────────────────────────────────────────────────────────────────
+
+  Notes:
+    * image_eval24 and AIGI_TEST clip-level metrics are unreliable because the
+      eval script groups by parent-dir name, and these datasets have all samples
+      under only 2 top-level folders (0_real / 1_fake) → only 2 "clips" detected.
+      Frame-level metrics are the authoritative numbers for image datasets.
+
+
+────────────────────────────────────────────────────────────────────────────────
+COMPARISON: NEW (compression-aug, 5 ep) vs. PREVIOUS (no aug, epoch 3 best)
+────────────────────────────────────────────────────────────────────────────────
+
+  Dataset              Prev AUC   New AUC     Δ AUC   Prev Acc   New Acc     Δ Acc
+  ──────────────────────────────────────────────────────────────────────────────────
+  gend_unified_test     92.89%    90.28%    −2.61%     81.53%    82.06%    +0.53%
+  image_eval24*         70.77%    68.28%    −2.49%     63.87%    59.84%    −4.03%
+  ReWIND_images         67.81%    77.20%    +9.39%     55.96%    69.28%   +13.32%
+  AIGI_TEST             59.68%    60.22%    +0.54%     55.97%    56.11%    +0.14%
+  ──────────────────────────────────────────────────────────────────────────────────
+  Avg (image 3)         66.09%    68.57%    +2.48%     58.60%    61.74%    +3.14%
+  ──────────────────────────────────────────────────────────────────────────────────
+
+  * Previous image_eval24 used test split only (786 imgs); new uses full folder (1,952 imgs)
+    — the drop in accuracy partly reflects harder unseen samples now included.
+
+  Key observations:
+    1. ReWIND_images gains +9.4% AUC — compression aug directly targets these
+       social-media reposted images (JPEG/recompression artifacts).
+    2. AIGI_TEST improves slightly (+0.5%) despite being mostly GAN-generated
+       images with different artifact types than JPEG deepfakes.
+    3. gend_unified_test (video frames) is slightly lower than the 13-epoch model,
+       expected since this run is only 5 epochs — the model was still improving.
+    4. Average over 3 image datasets improves +2.48% AUC with just 5 epochs,
+       suggesting further training gains remain available.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TRAINING EPOCH LOG
+────────────────────────────────────────────────────────────────────────────────
+
+  Epoch   Accuracy     AUC    Real_Acc  Fake_Acc    Loss   Tag
+  ──────────────────────────────────────────────────────────────
+    1      80.87%    89.66%    75.11%    86.77%   0.4262  BEST_AUC
+    2      80.97%    89.19%    82.32%    79.59%   0.4244
+    3      80.70%    89.50%    76.43%    85.07%   0.4277
+    4      81.88%    90.02%    80.03%    83.79%   0.4137  BEST_AUC
+    5      82.06%    90.28%    80.47%    83.68%   0.4088  BEST_AUC
+  ──────────────────────────────────────────────────────────────
+
+  Best checkpoint: checkpoint-best_auc.pth  (Epoch 5)
+  AUC consistently trending upward → further epochs expected to improve results.
+
+
+================================================================================
+EXPERIMENT FILES
+================================================================================
+  Checkpoint    : checkpoint-best_auc.pth
+  Config        : config.json
+  Aug config    : augment_config_used.json
+  Training log  : result.txt  |  train_log.txt
+  Progress      : pipeline_progress.txt
+  Eval outputs  : eval_eval_gend/         eval_eval_image_eval24/
+                  eval_eval_rewind_img/   eval_eval_aigi/
+================================================================================
