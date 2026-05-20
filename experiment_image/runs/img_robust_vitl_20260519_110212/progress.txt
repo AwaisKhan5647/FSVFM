@@ -1,0 +1,1005 @@
+
+======================================================================
+IMAGE-ROBUST TRAINING — 2026-05-19 11:02:43
+Experiment     : img_robust_vitl_20260519_110212
+Output dir     : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212
+----------------------------------------------------------------------
+  TRAIN SET:
+    Total  : 5,008,673
+    Real   : 2,364,874
+    Fake   : 2,643,799
+  TEST SET:
+    Total  : 214,264
+    Real   : 108,371
+    Fake   : 105,893
+----------------------------------------------------------------------
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Model          : vit_large_patch16
+  Pretrained ckpt: /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+  GPUs           : CUDA_VISIBLE_DEVICES=5,6,7  (3 rank(s))
+  Batch / GPU    : 128  (64 real + 64 fake per GPU)
+  Effective batch: 384
+  Epochs         : 5  (warmup 1)
+  Base LR        : 5e-05  →  actual 7.50e-05
+  Balanced batch : True
+-
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+  Compression aug: ENABLED
+  Aug config     : /data/awais/projects/FSVFM/experiment_image/configs/augment_default.json
+  Aug prob_scale : 1.0
+  Active aug ops : ['resize', 'jpeg', 'double_jpeg', 'webp', 'blur', 'sharpen', 'noise', 'color', 'posterize']
+=
+
+Epoch   1 | train_loss=0.5867 | Acc=80.87% | AUC=89.66% | Real_Acc=75.11% | Fake_Acc=86.77%
+Epoch   2 | train_loss=0.5764 | Acc=80.97% | AUC=89.19% | Real_Acc=82.32% | Fake_Acc=79.59%
+Epoch   3 | train_loss=0.5722 | Acc=80.70% | AUC=89.50% | Real_Acc=76.43% | Fake_Acc=85.07%
+Epoch   4 | train_loss=0.5707 | Acc=81.88% | AUC=90.02% | Real_Acc=80.03% | Fake_Acc=83.79%
+Epoch   5 | train_loss=0.5681 | Acc=82.06% | AUC=90.28% | Real_Acc=80.47% | Fake_Acc=83.68%
+
+Training finished in 13:19:34
+Best AUC: 90.28%  Best Acc: 82.06%
+======================================================================

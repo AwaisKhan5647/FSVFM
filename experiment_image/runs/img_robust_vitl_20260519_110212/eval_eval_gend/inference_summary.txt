@@ -1,0 +1,23 @@
+======================================================================
+FSVFM Image Evaluation Summary — 2026-05-20 00:26:44
+Dataset    : gend_unified_test
+Checkpoint : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/checkpoint-best_auc.pth
+  Epoch    : 5  (best_auc=90.28%)
+Samples    : 214,255  real=108,369  fake=105,886
+Threshold  : 0.5
+----------------------------------------------------------------------
+FRAME-LEVEL RESULTS:
+  Accuracy      : 82.06%
+  AUC           : 90.28%
+  Real_Accuracy : 80.47%
+  Fake_Accuracy : 83.67%
+----------------------------------------------------------------------
+IMAGE/VIDEO-LEVEL RESULTS (mean-prob per parent-dir clip):
+  Videos/clips  : 6,970
+  Accuracy      : 85.84%
+  AUC           : 94.10%
+  Real_Accuracy : 82.03%
+  Fake_Accuracy : 88.64%
+----------------------------------------------------------------------
+Output: /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/eval_eval_gend/inference_results.csv
+======================================================================

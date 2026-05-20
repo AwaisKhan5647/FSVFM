@@ -1,0 +1,10 @@
+# Image-Robust FSVFM Results — 2026-05-19 11:02:43
+# Experiment: img_robust_vitl_20260519_110212
+# Epoch | Accuracy | AUC | Real_Accuracy | Fake_Accuracy | Loss
+--------------------------------------------------------------------------------
+Epoch   1 [BEST_AUC] | Accuracy=80.87% | AUC=89.66% | Real_Accuracy=75.11% | Fake_Accuracy=86.77% | Loss=0.4262
+Epoch   2 | Accuracy=80.97% | AUC=89.19% | Real_Accuracy=82.32% | Fake_Accuracy=79.59% | Loss=0.4244
+Epoch   3 | Accuracy=80.70% | AUC=89.50% | Real_Accuracy=76.43% | Fake_Accuracy=85.07% | Loss=0.4277
+Epoch   4 [BEST_AUC] | Accuracy=81.88% | AUC=90.02% | Real_Accuracy=80.03% | Fake_Accuracy=83.79% | Loss=0.4137
+Epoch   5 [BEST_AUC] | Accuracy=82.06% | AUC=90.28% | Real_Accuracy=80.47% | Fake_Accuracy=83.68% | Loss=0.4088
+Epoch   0 [FINAL_BEST] | Accuracy=82.06% | AUC=90.28% | Real_Accuracy=0.00% | Fake_Accuracy=0.00% | Loss=0.4088

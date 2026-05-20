@@ -1,0 +1,23 @@
+======================================================================
+FSVFM Image Evaluation Summary — 2026-05-20 00:32:29
+Dataset    : AIGI_TEST
+Checkpoint : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/checkpoint-best_auc.pth
+  Epoch    : 5  (best_auc=90.28%)
+Samples    : 104,329  real=52,169  fake=52,160
+Threshold  : 0.5
+----------------------------------------------------------------------
+FRAME-LEVEL RESULTS:
+  Accuracy      : 56.11%
+  AUC           : 60.22%
+  Real_Accuracy : 68.89%
+  Fake_Accuracy : 43.34%
+----------------------------------------------------------------------
+IMAGE/VIDEO-LEVEL RESULTS (mean-prob per parent-dir clip):
+  Videos/clips  : 2
+  Accuracy      : 50.00%
+  AUC           : 100.00%
+  Real_Accuracy : 100.00%
+  Fake_Accuracy : 0.00%
+----------------------------------------------------------------------
+Output: /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/eval_eval_aigi/inference_results.csv
+======================================================================

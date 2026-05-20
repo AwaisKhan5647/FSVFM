@@ -1,0 +1,23 @@
+======================================================================
+FSVFM Image Evaluation Summary — 2026-05-20 00:28:28
+Dataset    : ReWIND_images
+Checkpoint : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/checkpoint-best_auc.pth
+  Epoch    : 5  (best_auc=90.28%)
+Samples    : 5,582  real=2,438  fake=3,144
+Threshold  : 0.5
+----------------------------------------------------------------------
+FRAME-LEVEL RESULTS:
+  Accuracy      : 69.28%
+  AUC           : 77.20%
+  Real_Accuracy : 90.24%
+  Fake_Accuracy : 53.02%
+----------------------------------------------------------------------
+IMAGE/VIDEO-LEVEL RESULTS (mean-prob per parent-dir clip):
+  Videos/clips  : 80
+  Accuracy      : 70.00%
+  AUC           : 73.29%
+  Real_Accuracy : 79.07%
+  Fake_Accuracy : 59.46%
+----------------------------------------------------------------------
+Output: /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/eval_eval_rewind_img/inference_results.csv
+======================================================================

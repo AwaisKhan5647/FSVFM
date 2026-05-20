@@ -1,0 +1,65 @@
+========================================================================
+IMAGE-ROBUST FSVFM PIPELINE
+Started    : 2026-05-19 11:02:12
+Experiment : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212
+Steps      : train(5 epochs) → eval×4 → summary
+GPUs       : train=5,6,7  eval=5,6,7
+Finetune   : /data/awais/projects/FSVFM/experiments/fsvfm_vitl_composite_20260508_160444/FSFM_best_checkpoint.pth
+Dataset    : /mnt/h200_dataset/saad/datasets/gend_unified
+Compression aug: ENABLED
+========================================================================
+
+PIPELINE STEPS
+--------------
+
+====================================================================
+  STEP 1 / 6 — Training (5 epochs)
+  2026-05-19 11:02:12
+====================================================================
+
+  Epoch results:
+    Epoch   1 [BEST_AUC] | Accuracy=80.87% | AUC=89.66% | Real_Accuracy=75.11% | Fake_Accuracy=86.77% | Loss=0.4262
+    Epoch   2 | Accuracy=80.97% | AUC=89.19% | Real_Accuracy=82.32% | Fake_Accuracy=79.59% | Loss=0.4244
+    Epoch   3 | Accuracy=80.70% | AUC=89.50% | Real_Accuracy=76.43% | Fake_Accuracy=85.07% | Loss=0.4277
+    Epoch   4 [BEST_AUC] | Accuracy=81.88% | AUC=90.02% | Real_Accuracy=80.03% | Fake_Accuracy=83.79% | Loss=0.4137
+    Epoch   5 [BEST_AUC] | Accuracy=82.06% | AUC=90.28% | Real_Accuracy=80.47% | Fake_Accuracy=83.68% | Loss=0.4088
+    Epoch   0 [FINAL_BEST] | Accuracy=82.06% | AUC=90.28% | Real_Accuracy=0.00% | Fake_Accuracy=0.00% | Loss=0.4088
+  [DONE] Training — best_auc checkpoint: checkpoint-best_auc.pth
+
+====================================================================
+  STEP 2 / 6 — Eval: gend_unified_test
+  2026-05-20 00:22:24
+====================================================================
+  [DONE] gend_unified_test — Acc=82.06%  AUC=90.28%  Real=80.47%  Fake=83.67%
+
+====================================================================
+  STEP 3 / 6 — Eval: image_eval24
+  2026-05-20 00:26:50
+====================================================================
+  [DONE] image_eval24 — Acc=59.84%  AUC=68.28%  Real=82.50%  Fake=45.39%
+
+====================================================================
+  STEP 4 / 6 — Eval: ReWIND_images
+  2026-05-20 00:27:35
+====================================================================
+  [DONE] ReWIND_images — Acc=69.28%  AUC=77.20%  Real=90.24%  Fake=53.02%
+
+====================================================================
+  STEP 5 / 6 — Eval: AIGI_TEST
+  2026-05-20 00:28:32
+====================================================================
+  [DONE] AIGI_TEST — Acc=56.11%  AUC=60.22%  Real=68.89%  Fake=43.34%
+
+====================================================================
+  STEP 6 / 6 — Results Summary
+  2026-05-20 00:32:35
+====================================================================
+  [DONE] Results summary: /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/results_summary.txt
+
+====================================================================
+  PIPELINE COMPLETE
+  Finished at : 2026-05-20 00:32:35
+  Experiment  : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212
+  Summary     : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/results_summary.txt
+  Best model  : /data/awais/projects/FSVFM/experiment_image/runs/img_robust_vitl_20260519_110212/checkpoint-best_auc.pth
+====================================================================
