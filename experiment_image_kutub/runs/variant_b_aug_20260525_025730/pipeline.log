@@ -1,0 +1,10 @@
+
+============================================================
+ Kutub pipeline — variant=b  gpu=4  aug=--use_compression_aug
+ Started: 2026-05-25 02:57:30
+ EXP_DIR: /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+============================================================
+[2026-05-25 13:25:16] Training completed (exit 0)
+
+Pipeline complete at 2026-05-25 13:25:16
+EXP_DIR=/data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730

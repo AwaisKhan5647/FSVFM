@@ -1,0 +1,150 @@
+# Kutub FOUNDATIONS Training Results — 2026-05-25 02:58:18
+# Compression aug: ENABLED
+# Best model = highest average AUC across image_eval24 + ReWIND_images + AIGI_TEST
+----------------------------------------------------------------------
+
+Epoch   1 [BEST_AVG_AUC]
+  train_loss  : 0.6246
+  avg_AUC     : 72.32%
+  image_eval24        : Acc=66.55%  AUC=74.91%  Real=32.76%  Fake=88.09%
+  ReWIND_images       : Acc=70.32%  AUC=76.62%  Real=38.68%  Fake=94.85%
+  AIGI_TEST           : Acc=57.64%  AUC=65.41%  Real=24.48%  Fake=90.79%
+
+Epoch   2 [BEST_AVG_AUC]
+  train_loss  : 0.6007
+  avg_AUC     : 73.60%
+  image_eval24        : Acc=67.52%  AUC=74.77%  Real=36.58%  Fake=87.25%
+  ReWIND_images       : Acc=69.74%  AUC=77.48%  Real=38.06%  Fake=94.31%
+  AIGI_TEST           : Acc=59.21%  AUC=68.57%  Real=27.17%  Fake=91.26%
+
+Epoch   3
+  train_loss  : 0.5907
+  avg_AUC     : 73.53%
+  image_eval24        : Acc=67.16%  AUC=74.08%  Real=34.21%  Fake=88.17%
+  ReWIND_images       : Acc=69.40%  AUC=74.95%  Real=37.12%  Fake=94.43%
+  AIGI_TEST           : Acc=60.49%  AUC=71.56%  Real=29.67%  Fake=91.33%
+
+Epoch   4 [BEST_AVG_AUC]
+  train_loss  : 0.5828
+  avg_AUC     : 75.57%
+  image_eval24        : Acc=66.60%  AUC=74.79%  Real=32.89%  Fake=88.09%
+  ReWIND_images       : Acc=68.79%  AUC=76.70%  Real=34.50%  Fake=95.39%
+  AIGI_TEST           : Acc=61.24%  AUC=75.21%  Real=29.22%  Fake=93.26%
+
+Epoch   5 [BEST_AVG_AUC]
+  train_loss  : 0.5772
+  avg_AUC     : 76.97%
+  image_eval24        : Acc=67.21%  AUC=75.12%  Real=32.63%  Fake=89.26%
+  ReWIND_images       : Acc=70.19%  AUC=78.92%  Real=36.59%  Fake=96.25%
+  AIGI_TEST           : Acc=64.19%  AUC=76.87%  Real=37.67%  Fake=90.72%
+
+Epoch   6
+  train_loss  : 0.5725
+  avg_AUC     : 75.88%
+  image_eval24        : Acc=66.34%  AUC=74.04%  Real=27.89%  Fake=90.86%
+  ReWIND_images       : Acc=67.18%  AUC=74.96%  Real=29.61%  Fake=96.31%
+  AIGI_TEST           : Acc=65.28%  AUC=78.63%  Real=38.54%  Fake=92.03%
+
+Epoch   7
+  train_loss  : 0.5712
+  avg_AUC     : 76.60%
+  image_eval24        : Acc=67.83%  AUC=74.40%  Real=39.08%  Fake=86.16%
+  ReWIND_images       : Acc=68.13%  AUC=72.59%  Real=39.83%  Fake=90.08%
+  AIGI_TEST           : Acc=73.76%  AUC=82.82%  Real=65.48%  Fake=82.05%
+
+Epoch   8 [BEST_AVG_AUC]
+  train_loss  : 0.5666
+  avg_AUC     : 78.80%
+  image_eval24        : Acc=67.83%  AUC=74.86%  Real=36.45%  Fake=87.84%
+  ReWIND_images       : Acc=70.91%  AUC=77.23%  Real=42.99%  Fake=92.56%
+  AIGI_TEST           : Acc=73.87%  AUC=84.31%  Real=58.73%  Fake=89.01%
+
+Epoch   9
+  train_loss  : 0.5633
+  avg_AUC     : 77.08%
+  image_eval24        : Acc=67.16%  AUC=74.71%  Real=31.97%  Fake=89.60%
+  ReWIND_images       : Acc=68.81%  AUC=71.85%  Real=37.16%  Fake=93.35%
+  AIGI_TEST           : Acc=73.94%  AUC=84.67%  Real=57.18%  Fake=90.69%
+
+Epoch  10 [BEST_AVG_AUC]
+  train_loss  : 0.5626
+  avg_AUC     : 79.62%
+  image_eval24        : Acc=67.78%  AUC=74.80%  Real=39.21%  Fake=85.99%
+  ReWIND_images       : Acc=70.94%  AUC=77.69%  Real=45.04%  Fake=91.03%
+  AIGI_TEST           : Acc=76.34%  AUC=86.39%  Real=64.26%  Fake=88.42%
+
+Epoch  11
+  train_loss  : 0.5630
+  avg_AUC     : 79.05%
+  image_eval24        : Acc=67.83%  AUC=75.57%  Real=37.50%  Fake=87.16%
+  ReWIND_images       : Acc=70.44%  AUC=75.72%  Real=43.15%  Fake=91.60%
+  AIGI_TEST           : Acc=75.44%  AUC=85.85%  Real=62.55%  Fake=88.33%
+
+Epoch  12 [BEST_AVG_AUC]
+  train_loss  : 0.5585
+  avg_AUC     : 79.63%
+  image_eval24        : Acc=67.42%  AUC=75.36%  Real=34.08%  Fake=88.67%
+  ReWIND_images       : Acc=70.14%  AUC=77.77%  Real=39.91%  Fake=93.58%
+  AIGI_TEST           : Acc=74.58%  AUC=85.77%  Real=58.01%  Fake=91.15%
+
+Epoch  13 [BEST_AVG_AUC]
+  train_loss  : 0.5580
+  avg_AUC     : 79.64%
+  image_eval24        : Acc=67.42%  AUC=75.32%  Real=33.82%  Fake=88.84%
+  ReWIND_images       : Acc=69.08%  AUC=76.99%  Real=38.31%  Fake=92.94%
+  AIGI_TEST           : Acc=75.58%  AUC=86.62%  Real=59.49%  Fake=91.67%
+
+Epoch  14 [BEST_AVG_AUC]
+  train_loss  : 0.5565
+  avg_AUC     : 79.97%
+  image_eval24        : Acc=68.03%  AUC=75.69%  Real=40.79%  Fake=85.40%
+  ReWIND_images       : Acc=70.58%  AUC=76.58%  Real=46.60%  Fake=89.19%
+  AIGI_TEST           : Acc=78.29%  AUC=87.64%  Real=70.74%  Fake=85.85%
+
+Epoch  15 [BEST_AVG_AUC]
+  train_loss  : 0.5559
+  avg_AUC     : 80.08%
+  image_eval24        : Acc=67.62%  AUC=75.75%  Real=37.37%  Fake=86.91%
+  ReWIND_images       : Acc=70.94%  AUC=77.11%  Real=44.54%  Fake=91.41%
+  AIGI_TEST           : Acc=77.23%  AUC=87.39%  Real=65.53%  Fake=88.94%
+
+Epoch  16 [BEST_AVG_AUC]
+  train_loss  : 0.5555
+  avg_AUC     : 80.55%
+  image_eval24        : Acc=67.78%  AUC=75.84%  Real=35.39%  Fake=88.42%
+  ReWIND_images       : Acc=69.99%  AUC=77.91%  Real=41.47%  Fake=92.11%
+  AIGI_TEST           : Acc=77.31%  AUC=87.89%  Real=64.35%  Fake=90.28%
+
+Epoch  17
+  train_loss  : 0.5550
+  avg_AUC     : 79.69%
+  image_eval24        : Acc=68.39%  AUC=75.39%  Real=38.68%  Fake=87.33%
+  ReWIND_images       : Acc=68.43%  AUC=75.65%  Real=42.29%  Fake=88.71%
+  AIGI_TEST           : Acc=78.56%  AUC=88.04%  Real=71.19%  Fake=85.94%
+
+Epoch  18 [BEST_AVG_AUC]
+  train_loss  : 0.5558
+  avg_AUC     : 80.84%
+  image_eval24        : Acc=68.29%  AUC=75.81%  Real=37.76%  Fake=87.75%
+  ReWIND_images       : Acc=70.73%  AUC=78.92%  Real=44.26%  Fake=91.25%
+  AIGI_TEST           : Acc=78.11%  AUC=87.80%  Real=68.45%  Fake=87.77%
+
+Epoch  19
+  train_loss  : 0.5531
+  avg_AUC     : 80.18%
+  image_eval24        : Acc=67.88%  AUC=75.39%  Real=37.11%  Fake=87.50%
+  ReWIND_images       : Acc=69.10%  AUC=77.02%  Real=41.30%  Fake=90.65%
+  AIGI_TEST           : Acc=78.71%  AUC=88.13%  Real=70.26%  Fake=87.16%
+
+Epoch  20
+  train_loss  : 0.5509
+  avg_AUC     : 80.28%
+  image_eval24        : Acc=68.19%  AUC=75.63%  Real=38.95%  Fake=86.83%
+  ReWIND_images       : Acc=69.69%  AUC=77.09%  Real=42.66%  Fake=90.65%
+  AIGI_TEST           : Acc=78.61%  AUC=88.14%  Real=69.89%  Fake=87.33%
+
+
+# FINAL BEST (avg AUC = 80.84%)
+#   image_eval24: AUC=75.81%
+#   ReWIND_images: AUC=78.92%
+#   AIGI_TEST: AUC=87.80%

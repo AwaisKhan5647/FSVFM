@@ -1,0 +1,54 @@
+{
+  "_comment": "Compression-aware augmentation config for image-robust FSVFM training.",
+  "_comment2": "All probs are independent Bernoulli draws per image. Ranges are uniform-sampled.",
+
+  "jpeg": {
+    "prob": 0.60,
+    "quality_min": 40,
+    "quality_max": 95
+  },
+  "double_jpeg": {
+    "prob": 0.30,
+    "q1_min": 65,
+    "q1_max": 95,
+    "q2_min": 40,
+    "q2_max": 85
+  },
+  "webp": {
+    "prob": 0.20,
+    "quality_min": 50,
+    "quality_max": 90
+  },
+  "blur": {
+    "prob": 0.30,
+    "sigma_min": 0.3,
+    "sigma_max": 2.0
+  },
+  "resize": {
+    "prob": 0.35,
+    "scale_min": 0.50,
+    "scale_max": 0.90
+  },
+  "noise": {
+    "prob": 0.25,
+    "std_min": 0.005,
+    "std_max": 0.040
+  },
+  "sharpen": {
+    "prob": 0.25,
+    "factor_min": 1.5,
+    "factor_max": 4.0
+  },
+  "color": {
+    "prob": 0.25,
+    "brightness": 0.20,
+    "contrast": 0.20,
+    "saturation": 0.30,
+    "hue": 0.05
+  },
+  "posterize": {
+    "prob": 0.10,
+    "bits_min": 5,
+    "bits_max": 7
+  }
+}

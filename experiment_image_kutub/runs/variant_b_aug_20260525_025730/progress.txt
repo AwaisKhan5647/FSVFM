@@ -1,0 +1,870 @@
+======================================================================
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+KUTUB FOUNDATIONS TRAINING — 2026-05-25 02:58:18
+Output dir  : /data/awais/projects/FSVFM/experiment_image_kutub/runs/variant_b_aug_20260525_025730
+GPU         : CUDA_VISIBLE_DEVICES=4
+Train root  : /data/Kutub/DEEPFAKES/DATASETS/LSUN/FOUNDATIONS
+Train data  : 300,000 (150,000 real / 150,000 fake)
+Model       : vit_large_patch16
+Batch/GPU   : 64  (balanced 50/50)
+Epochs      : 20  (warmup 2)
+Base LR     : 5e-05  →  1.25e-05
+Comp aug    : ENABLED
+Aug config  : /data/awais/projects/FSVFM/experiment_image_kutub/configs/augment_default.json
+=
+
+Epoch   1 | train=0.6246 | avgAUC=72.32% *BEST* | image=74.9%  ReWIND=76.6%  AIGI=65.4%
+Epoch   2 | train=0.6007 | avgAUC=73.60% *BEST* | image=74.8%  ReWIND=77.5%  AIGI=68.6%
+Epoch   3 | train=0.5907 | avgAUC=73.53% | image=74.1%  ReWIND=75.0%  AIGI=71.6%
+Epoch   4 | train=0.5828 | avgAUC=75.57% *BEST* | image=74.8%  ReWIND=76.7%  AIGI=75.2%
+Epoch   5 | train=0.5772 | avgAUC=76.97% *BEST* | image=75.1%  ReWIND=78.9%  AIGI=76.9%
+Epoch   6 | train=0.5725 | avgAUC=75.88% | image=74.0%  ReWIND=75.0%  AIGI=78.6%
+Epoch   7 | train=0.5712 | avgAUC=76.60% | image=74.4%  ReWIND=72.6%  AIGI=82.8%
+Epoch   8 | train=0.5666 | avgAUC=78.80% *BEST* | image=74.9%  ReWIND=77.2%  AIGI=84.3%
+Epoch   9 | train=0.5633 | avgAUC=77.08% | image=74.7%  ReWIND=71.9%  AIGI=84.7%
+Epoch  10 | train=0.5626 | avgAUC=79.62% *BEST* | image=74.8%  ReWIND=77.7%  AIGI=86.4%
+Epoch  11 | train=0.5630 | avgAUC=79.05% | image=75.6%  ReWIND=75.7%  AIGI=85.9%
+Epoch  12 | train=0.5585 | avgAUC=79.63% *BEST* | image=75.4%  ReWIND=77.8%  AIGI=85.8%
+Epoch  13 | train=0.5580 | avgAUC=79.64% *BEST* | image=75.3%  ReWIND=77.0%  AIGI=86.6%
+Epoch  14 | train=0.5565 | avgAUC=79.97% *BEST* | image=75.7%  ReWIND=76.6%  AIGI=87.6%
+Epoch  15 | train=0.5559 | avgAUC=80.08% *BEST* | image=75.7%  ReWIND=77.1%  AIGI=87.4%
+Epoch  16 | train=0.5555 | avgAUC=80.55% *BEST* | image=75.8%  ReWIND=77.9%  AIGI=87.9%
+Epoch  17 | train=0.5550 | avgAUC=79.69% | image=75.4%  ReWIND=75.6%  AIGI=88.0%
+Epoch  18 | train=0.5558 | avgAUC=80.84% *BEST* | image=75.8%  ReWIND=78.9%  AIGI=87.8%
+Epoch  19 | train=0.5531 | avgAUC=80.18% | image=75.4%  ReWIND=77.0%  AIGI=88.1%
+Epoch  20 | train=0.5509 | avgAUC=80.28% | image=75.6%  ReWIND=77.1%  AIGI=88.1%
+
+======================================================================
+Training complete in 10:26:54
+Best avg AUC: 80.84%
+  image_eval24: 75.81%
+  ReWIND_images: 78.92%
+  AIGI_TEST: 87.80%
+======================================================================

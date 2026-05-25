@@ -66,3 +66,20 @@ experiment_image/runs/*/events.out.tfevents.*
 !experiment_image/runs/*/augment_config_used.json
 !experiment_image/runs/*/results_summary.txt
 !experiment_image/runs/*/eval_*/inference_summary.txt
+
+# experiment_image_kutub runtime outputs
+experiment_image_kutub/runs/*/log_detail.txt
+experiment_image_kutub/runs/*/train_stdout.log
+experiment_image_kutub/runs/*/events.out.tfevents.*
+experiment_image_kutub/runs/dry_run_*/
+experiment_image_kutub/__pycache__/
+experiment_image_kutub/pipeline_state_variant_*.env
+
+# Keep human-readable experiment_image_kutub outputs
+!experiment_image_kutub/runs/*/result.txt
+!experiment_image_kutub/runs/*/progress.txt
+!experiment_image_kutub/runs/*/pipeline.log
+!experiment_image_kutub/runs/*/pipeline_progress.txt
+!experiment_image_kutub/runs/*/config.json
+!experiment_image_kutub/runs/*/train_log.txt
+!experiment_image_kutub/runs/*/augment_config_used.json
